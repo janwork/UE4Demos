@@ -1,0 +1,1702 @@
+﻿Log file open, 11/09/21 20:00:08
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: ActionRPGTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.830702
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin GameplayAbilities
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/jan/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:10809'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15228867
+LogInit: Engine Version: 4.26.1-15228867+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jan 28 2021 07:07:34
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: F:/UE4/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+[2021.11.09-12.00.16:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.11.09-12.00.16:294][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.11.09-12.00.16:295][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+[2021.11.09-12.00.16:295][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+[2021.11.09-12.00.16:346][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.09-12.00.16:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.09-12.00.16:347][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.11.09-12.00.16:348][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.09-12.00.16:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.11.09-12.00.16:348][  0]LogHAL: Display: Platform has ~ 16 GB [17112915968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.11.09-12.00.16:348][  0]LogInit: Going up to parent DeviceProfile []
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.09-12.00.16:348][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Scalability.ini]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.11.09-12.00.16:349][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.11.09-12.00.16:366][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.11.09-12.00.16:366][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.11.09-12.00.16:366][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.11.09-12.00.16:366][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/UEProject/ActionRPGTest/Saved/Config/Windows/Engine.ini]
+[2021.11.09-12.00.16:366][  0]LogInit: Computer: DESKTOP-JA1LSD0
+[2021.11.09-12.00.16:366][  0]LogInit: User: jan
+[2021.11.09-12.00.16:367][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.11.09-12.00.16:367][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.11.09-12.00.16:367][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.11.09-12.00.16:367][  0]LogMemory: Platform Memory Stats for Windows
+[2021.11.09-12.00.16:367][  0]LogMemory: Process Physical Memory: 133.57 MB used, 133.57 MB peak
+[2021.11.09-12.00.16:367][  0]LogMemory: Process Virtual Memory: 109.43 MB used, 109.43 MB peak
+[2021.11.09-12.00.16:367][  0]LogMemory: Physical Memory: 4558.63 MB used,  11761.52 MB free, 16320.15 MB total
+[2021.11.09-12.00.16:367][  0]LogMemory: Virtual Memory: 134196712.00 MB used,  21013.83 MB free, 134217728.00 MB total
+[2021.11.09-12.00.16:373][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.11.09-12.00.16:907][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.11.09-12.00.16:925][  0]LogInit: Overriding language with editor language configuration option (zh-Hans).
+[2021.11.09-12.00.16:925][  0]LogInit: Overriding language with editor locale configuration option (zh-Hans).
+[2021.11.09-12.00.17:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2021.11.09-12.00.17:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2021.11.09-12.00.17:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2021.11.09-12.00.17:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2021.11.09-12.00.17:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2021.11.09-12.00.17:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2021.11.09-12.00.17:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2021.11.09-12.00.17:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2021.11.09-12.00.17:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.11.09-12.00.17:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2021.11.09-12.00.17:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2021.11.09-12.00.17:668][  0]LogInit: Setting process to per monitor DPI aware
+[2021.11.09-12.00.17:774][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.11.09-12.00.18:090][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.11.09-12.00.18:090][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.11.09-12.00.18:584][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.09-12.00.18:584][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.11.09-12.00.18:584][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.11.09-12.00.18:584][  0]LogD3D11RHI: D3D11 adapters:
+[2021.11.09-12.00.18:722][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.11.09-12.00.18:722][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.11.09-12.00.18:724][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.09-12.00.18:724][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.09-12.00.18:724][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.11.09-12.00.18:746][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.11.09-12.00.18:746][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.11.09-12.00.18:746][  0]LogWindows: EnumDisplayDevices:
+[2021.11.09-12.00.18:749][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.11.09-12.00.18:749][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.11.09-12.00.18:749][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.11.09-12.00.18:750][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.11.09-12.00.18:750][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.11.09-12.00.18:750][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.11.09-12.00.18:750][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.11.09-12.00.18:750][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.11.09-12.00.18:750][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.11.09-12.00.18:810][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.11.09-12.00.18:810][  0]LogD3D11RHI: Async texture creation enabled
+[2021.11.09-12.00.18:810][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.11.09-12.00.19:054][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.11.09-12.00.19:056][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.11.09-12.00.20:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.11.09-12.00.20:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.11.09-12.00.20:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.11.09-12.00.20:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.11.09-12.00.20:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.11.09-12.00.20:601][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.11.09-12.00.20:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.11.09-12.00.20:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.11.09-12.00.20:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.11.09-12.00.20:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.11.09-12.00.20:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.11.09-12.00.20:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.11.09-12.00.20:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.11.09-12.00.20:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.11.09-12.00.20:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.11.09-12.00.20:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.11.09-12.00.20:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.11.09-12.00.20:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.11.09-12.00.20:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.11.09-12.00.20:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.11.09-12.00.20:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.11.09-12.00.20:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.11.09-12.00.20:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.11.09-12.00.20:872][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.11.09-12.00.20:948][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.11.09-12.00.21:823][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.11.09-12.00.21:835][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../UEProject/ActionRPGTest/Intermediate/Shaders/WorkingDirectory/9852/).
+[2021.11.09-12.00.21:835][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jan/AppData/Local/Temp/UnrealShaderWorkingDir/1BC1327F46A07903CF176AB045F44604/'.
+[2021.11.09-12.00.21:835][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.11.09-12.00.21:835][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.11.09-12.00.24:164][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.11.09-12.00.24:348][  0]LogDerivedDataCache: Loaded boot cache 0.18s 77MB C:/Users/jan/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.11.09-12.00.24:348][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jan/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.11.09-12.00.24:348][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UEProject/ActionRPGTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.09-12.00.24:348][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.11.09-12.00.24:348][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UEProject/ActionRPGTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.09-12.00.24:348][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.11.09-12.00.24:384][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.11.09-12.00.24:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.09-12.00.24:384][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.11.09-12.00.24:408][  0]LogDerivedDataCache: Speed tests for C:/Users/jan/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+[2021.11.09-12.00.24:408][  0]LogDerivedDataCache: Display: Performance to C:/Users/jan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.16ms. RandomReadSpeed=164.10MBs, RandomWriteSpeed=59.58MBs. Assigned SpeedClass 'Local'
+[2021.11.09-12.00.24:408][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.11.09-12.00.24:408][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.11.09-12.00.24:408][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.11.09-12.00.24:470][  0]LogSlate: Using FreeType 2.10.0
+[2021.11.09-12.00.24:502][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.09-12.00.24:823][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.11.09-12.00.27:024][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.09-12.00.27:024][  0]LogInit: Active device profile: [000001EC25FF6000][000001EC26520400 49] Windows
+[2021.11.09-12.00.27:024][  0]LogInit: Profiles: [000001EC25FF6000][000001EC26520400 49] Windows, [000001EC25F85C00][000001EC26528580 49] WindowsNoEditor, [000001EC25FF5500][000001EC2652C700 49] WindowsServer, [000001EC25F85100][000001EC26530880 49] WindowsClient, [000001EC25FF5C00][000001EC26534A00 49] IOS, [000001EC25F86D00][000001EC26538B80 49] iPadAir, [000001EC25FF4600][000001EC2653CD00 49] iPadAir2, [000001EC25F26400][000001EC26544FC0 49] IPadPro, [000001EC25F26500][000001EC26541000 49] iPadAir3, [000001EC25F85900][000001EC26549180 49] iPadAir4, [000001EC25F27D00][000001EC2654D300 49] iPadMini2, [000001EC25F86700][000001EC26551480 49] iPadMini3, [000001EC25F27F00][000001EC265255C0 49] iPadMini4, [000001EC25F87700][000001EC26555700 49] iPadMini5, [000001EC25F55D00][000001EC2655D940 49] iPhone6, [000001EC25F55E00][000001EC26559980 49] iPodTouch6, [000001EC25F25D00][000001EC26569C40 49] iPhone7, [000001EC25F25C00][000001EC26565C80 49] iPodTouch7, [000001EC25F57500][000001EC2656C140 49] iPhone5S, [000001EC25F25A00][000001EC265702C0 49] iPhone6Plus, [000001EC25F56D00][000001EC26574440 49] iPhone6S, [000001EC25F24900][000001EC265785C0 49] iPhone6SPlus, [000001EC25F57300][000001EC2657C740 49] iPhone7Plus, [000001EC25F26D00][000001EC265808C0 49] iPhoneSE, [000001EC25F55F00][000001EC26584A40 49] iPhone8, [000001EC25F25B00][000001EC26588BC0 49] iPhone8Plus, [000001EC25F57D00][000001EC2658CD40 49] iPhoneX, [000001EC25F24D00][000001EC26590EC0 49] iPhoneXS, [000001EC25F54600][000001EC26595040 49] iPhoneXSMax, [000001EC25F24F00][000001EC265991C0 49] iPhoneXR, [000001EC25F56300][000001EC2659D340 49] iPhone11, [000001EC25F27000][000001EC265A14C0 49] iPhone11Pro, [000001EC25F54800][000001EC265A5640 49] iPhone11ProMax, [000001EC25F24200][000001EC26561780 49] iPhoneSE2, [000001EC25F55C00][000001EC265A98C0 49] iPhone12Mini, [000001EC25F24B00][000001EC265ADA00 49] iPhone12, [000001EC25F55600][000001EC265B5B80 49] iPhone12Pro, [000001EC25F25600][000001EC265B9D00 49] iPhone12ProMax, [000001EC25F55100][000001EC265BC1C0 49] iPadPro105, [000001EC25F24300][000001EC265C0340 49] iPadPro129, [000001EC25F57100][000001EC265C44C0 49] iPadPro97, [000001EC25F27700][000001EC265C8640 49] iPadPro2_129, [000001EC25F55200][000001EC265CC7C0 49] iPad5, [000001EC25FF5800][000001EC265D0940 49] iPad6, [000001EC25F54E00][000001EC265D4AC0 49] iPad7, [000001EC25FF6C00][000001EC265D8C40 49] iPad8, [000001EC25F56700][000001EC265DCDC0 49] iPadPro11, [000001EC25FF5100][000001EC265E0F40 49] iPadPro2_11, [000001EC25F57600][000001EC2660D0C0 49] iPadPro3_129, [000001EC25FF4F00][000001EC26611240 49] iPadPro4_129, [000001EC25F56000][000001EC266153C0 49] AppleTV, [000001EC25FF6600][000001EC26619540 49] AppleTV4K, [000001EC25F57B00][000001EC2661D6C0 49] TVOS, [000001EC25FF4B00][000001EC265B1800 49] Mac, [000001EC25F55800][000001EC26621940 49] MacClient, [000001EC25FF4800][000001EC26625A80 49] MacNoEditor, [000001EC25F54500][000001EC2662DC00 49] MacServer, [000001EC25FF6D00][000001EC266300C0 49] Linux, [000001EC25F56600][000001EC26634240 49] LinuxNoEditor, [000001EC25FF5000][000001EC266383C0 49] LinuxAArch64NoEditor, [000001EC25F55A00][000001EC2663C540 49] LinuxClient, [000001EC25FF5A00][000001EC266406C0 49] LinuxAArch64Client, [000001EC25F57000][000001EC26644840 49] LinuxServer, [000001EC25FF6200][000001EC266489C0 49] LinuxAArch64Server, [000001EC25F55300][000001EC2664CB40 49] Android, [000001EC25FF4200][000001EC26650CC0 49] Android_Low, [000001EC25F56800][000001EC26654E40 49] Android_Mid, [000001EC25FF5700][000001EC26658FC0 49] Android_High, [000001EC25F55400][000001EC2665D140 49] Android_Default, [000001EC25FF6900][000001EC266612C0 49] Android_Adreno4xx, [000001EC25F57E00][000001EC26665440 49] Android_Adreno5xx_Low, [000001EC25FF6800][000001EC266695C0 49] Android_Adreno5xx, [000001EC25F57F00][000001EC2666D740 49] Android_Adreno6xx, [000001EC25FF5300][000001EC26629880 49] Android_Adreno6xx_Vulkan, [000001EC25F57C00][000001EC266719C0 49] Android_Mali_T6xx, [000001EC25FF5B00][000001EC26675B00 49] Android_Mali_T7xx, [000001EC25F55700][000001EC26679C40 49] Android_Mali_T8xx, [000001EC25FF5600][000001EC26680100 49] Android_Mali_G71, [000001EC25F54200][000001EC26684280 49] Android_Mali_G72, [000001EC25F26C00][000001EC26688400 49] Android_Mali_G72_Vulkan, [000001EC25F84B00][000001EC2668C580 49] Android_Mali_G76, [000001EC25F24700][000001EC26690700 49] Android_Mali_G76_Vulkan, [000001EC25F85600][000001EC26694880 49] Android_Mali_G77, [000001EC25F24400][000001EC26698A00 49] Android_Mali_G77_Vulkan, [000001EC25F87800][000001EC2669CB80 49] Android_Vulkan_SM5, [000001EC25F26100][000001EC266A0D00 49] Android_PowerVR_G6xxx, [000001EC25F87300][000001EC266A4E80 49] Android_PowerVR_GT7xxx, [000001EC25F26800][000001EC266A9000 49] Android_PowerVR_GE8xxx, [000001EC25F87400][000001EC266AD180 49] Android_PowerVR_GM9xxx, [000001EC25F27300][000001EC266B1300 49] Android_PowerVR_GM9xxx_Vulkan, [000001EC25F85500][000001EC266B5480 49] Android_TegraK1, [000001EC25F27C00][000001EC266B9600 49] Android_Unknown_Vulkan, [000001EC25F87200][000001EC266BD780 49] Lumin, [000001EC25F26000][000001EC2667D8C0 49] Lumin_Desktop, [000001EC25F86800][000001EC266C1A00 49] HoloLens, 
+[2021.11.09-12.00.28:421][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.11.09-12.00.28:421][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.11.09-12.00.28:421][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.11.09-12.00.28:421][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.11.09-12.00.28:465][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.11.09-12.00.28:780][  0]LogNetVersion: ActionRPGTest 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 399611325)
+[2021.11.09-12.00.35:458][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.11.09-12.00.35:663][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 2 prioritized culture(s) in 0.174023 seconds
+[2021.11.09-12.00.35:668][  0]LogUObjectArray: 16830 objects as part of root set at end of initial load.
+[2021.11.09-12.00.35:668][  0]LogUObjectAllocator: 4209472 out of 0 bytes used by permanent object pool.
+[2021.11.09-12.00.35:668][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.11.09-12.00.39:791][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.11.09-12.00.40:145][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.11.09-12.00.40:488][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.11.09-12.00.41:825][  0]SourceControl: 源码管理已禁用
+[2021.11.09-12.00.41:825][  0]SourceControl: 源码管理已禁用
+[2021.11.09-12.00.41:893][  0]SourceControl: 源码管理已禁用
+[2021.11.09-12.00.41:995][  0]SourceControl: 源码管理已禁用
+[2021.11.09-12.00.42:020][  0]SourceControl: 源码管理已禁用
+[2021.11.09-12.00.42:079][  0]LogUProjectInfo: Found projects:
+[2021.11.09-12.00.43:702][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.11.09-12.00.43:820][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.09-12.00.43:820][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.09-12.00.44:955][  0]LogCollectionManager: Loaded 0 collections in 0.002150 seconds
+[2021.11.09-12.00.45:375][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/ActionRPGTest/Saved/Collections/' took 0.00s
+[2021.11.09-12.00.45:375][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/ActionRPGTest/Content/Developers/jan/Collections/' took 0.00s
+[2021.11.09-12.00.45:375][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/ActionRPGTest/Content/Collections/' took 0.00s
+[2021.11.09-12.00.45:402][  0]LogOcInput: OculusInput pre-init called
+[2021.11.09-12.00.45:659][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.11.09-12.00.45:659][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.11.09-12.00.46:163][  0]LogEngine: Initializing Engine...
+[2021.11.09-12.00.46:179][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.09-12.00.46:179][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.11.09-12.00.46:625][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.11.09-12.00.46:814][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.11.09-12.00.46:815][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.11.09-12.00.46:834][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.11.09-12.00.46:834][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.09-12.00.46:834][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.09-12.00.46:834][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.09-12.00.46:834][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.09-12.00.46:926][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.09-12.00.46:927][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.11.09-12.00.46:986][  0]LogAudioMixer: Display: Using Audio Device Realtek Digital Output (Realtek High Definition Audio)
+[2021.11.09-12.00.46:986][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.09-12.00.47:040][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.09-12.00.47:040][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.09-12.00.47:041][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.09-12.00.47:041][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.09-12.00.47:041][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.09-12.00.47:042][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.09-12.00.47:042][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.09-12.00.47:042][  0]LogInit: FAudioDevice initialized.
+[2021.11.09-12.00.47:042][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.11.09-12.00.47:053][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.11.09-12.00.47:225][  0]LogDerivedDataCache: Saved boot cache 0.17s 77MB C:/Users/jan/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.11.09-12.00.47:226][  0]LogInit: Texture streaming: Enabled
+[2021.11.09-12.00.47:291][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.1-15228867+++UE4+Release-4.26
+[2021.11.09-12.00.47:301][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.11.09-12.00.47:301][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={8A018A85-4061-D8D1-5D2C-C5AF0B2AF450}
+[2021.11.09-12.00.47:301][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.11.09-12.00.47:307][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.11.09-12.00.47:711][  0]LogInit: Transaction tracking system initialized
+[2021.11.09-12.00.48:235][  0]BlueprintLog: New page: 编辑器加载
+[2021.11.09-12.00.49:822][  0]LocalizationService: 本地化服务已禁用
+[2021.11.09-12.00.50:281][  0]TimingProfiler: Initialize
+[2021.11.09-12.00.50:324][  0]TimingProfiler: OnSessionChanged
+[2021.11.09-12.00.50:325][  0]LoadingProfiler: Initialize
+[2021.11.09-12.00.50:325][  0]LoadingProfiler: OnSessionChanged
+[2021.11.09-12.00.50:325][  0]NetworkingProfiler: Initialize
+[2021.11.09-12.00.50:326][  0]NetworkingProfiler: OnSessionChanged
+[2021.11.09-12.00.50:326][  0]MemoryProfiler: Initialize
+[2021.11.09-12.00.50:326][  0]MemoryProfiler: OnSessionChanged
+[2021.11.09-12.00.52:902][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.11.09-12.00.52:902][  0]LogCook: Display: Mobile HDR setting 1
+[2021.11.09-12.00.53:246][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/ActionRPGTest/Content/' took 0.02s
+[2021.11.09-12.00.54:816][  0]LogStats: FGameplayAbilitiesEditorModule::GameplayTagTreeChanged -  0.000 s
+[2021.11.09-12.00.59:013][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.11.09-12.00.59:071][  0]SourceControl: 源码管理已禁用
+[2021.11.09-12.00.59:071][  0]LogUnrealEdMisc: Loading editor; pre map load, took 69.626
+[2021.11.09-12.00.59:071][  0]Cmd: MAP LOAD FILE="../../../../../UEProject/ActionRPGTest/Content/Maps/ActionRPGTest_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.09-12.00.59:141][  0]LightingResults: New page: 光照构建
+[2021.11.09-12.00.59:143][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-12.00.59:143][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.00.59:143][  0]MapCheck: New page: 地图检测
+[2021.11.09-12.00.59:143][  0]LightingResults: New page: 光照构建
+[2021.11.09-12.00.59:268][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.11.09-12.01.01:505][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ActionRPGTest_Main'.
+[2021.11.09-12.01.01:506][  0]LogAIModule: Creating AISystem for world ActionRPGTest_Main
+[2021.11.09-12.01.01:555][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.09-12.01.01:561][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.11.09-12.01.01:561][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.09-12.01.01:561][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.098毫秒。
+[2021.11.09-12.01.01:561][  0]LogFileHelpers: Loading map 'ActionRPGTest_Main' took 2.490
+[2021.11.09-12.01.02:416][  0]LogUnrealEdMisc: Total Editor Startup Time, took 72.971
+[2021.11.09-12.01.02:855][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.01.02:861][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.01.02:867][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.01.02:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.01.02:888][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3696 classes and 870 folders.
+[2021.11.09-12.01.02:943][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.11.09-12.01.03:101][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.11.09-12.01.03:101][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:101][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.09-12.01.03:101][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.11.09-12.01.03:121][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.11.09-12.01.03:121][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:121][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.11.09-12.01.03:121][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.11.09-12.01.03:136][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.11.09-12.01.03:136][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:136][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.11.09-12.01.03:136][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.11.09-12.01.03:212][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.09-12.01.03:212][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:212][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.09-12.01.03:212][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.11.09-12.01.03:237][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.11.09-12.01.03:237][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:237][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.11.09-12.01.03:237][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2021.11.09-12.01.03:337][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.11.09-12.01.03:337][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:338][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.11.09-12.01.03:338][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.11.09-12.01.03:341][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.11.09-12.01.03:342][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:342][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.11.09-12.01.03:342][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.11.09-12.01.03:404][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.11.09-12.01.03:404][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:404][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.11.09-12.01.03:405][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.11.09-12.01.03:447][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.11.09-12.01.03:447][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:447][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.11.09-12.01.03:447][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.11.09-12.01.03:481][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.11.09-12.01.03:481][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:481][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.11.09-12.01.03:481][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.11.09-12.01.03:499][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.11.09-12.01.03:499][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:499][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.11.09-12.01.03:499][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2021.11.09-12.01.03:543][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.11.09-12.01.03:543][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:543][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.11.09-12.01.03:543][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.11.09-12.01.03:599][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.09-12.01.03:599][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:599][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.09-12.01.03:599][  0]LogPakFile: OnPakFileMounted2Time == 0.000054
+[2021.11.09-12.01.03:608][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.11.09-12.01.03:608][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:608][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.11.09-12.01.03:608][  0]LogPakFile: OnPakFileMounted2Time == 0.000057
+[2021.11.09-12.01.03:651][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.11.09-12.01.03:651][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:651][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.11.09-12.01.03:651][  0]LogPakFile: OnPakFileMounted2Time == 0.000062
+[2021.11.09-12.01.03:653][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.11.09-12.01.03:653][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:653][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.09-12.01.03:653][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
+[2021.11.09-12.01.03:690][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.11.09-12.01.03:690][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:690][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.11.09-12.01.03:690][  0]LogPakFile: OnPakFileMounted2Time == 0.000070
+[2021.11.09-12.01.03:709][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.11.09-12.01.03:709][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:709][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.11.09-12.01.03:709][  0]LogPakFile: OnPakFileMounted2Time == 0.000073
+[2021.11.09-12.01.03:711][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.09-12.01.03:711][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:711][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.09-12.01.03:711][  0]LogPakFile: OnPakFileMounted2Time == 0.000075
+[2021.11.09-12.01.03:724][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.09-12.01.03:724][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:724][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.09-12.01.03:724][  0]LogPakFile: OnPakFileMounted2Time == 0.000080
+[2021.11.09-12.01.03:733][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.11.09-12.01.03:733][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:733][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.11.09-12.01.03:733][  0]LogPakFile: OnPakFileMounted2Time == 0.000084
+[2021.11.09-12.01.03:767][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.11.09-12.01.03:767][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:767][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.11.09-12.01.03:767][  0]LogPakFile: OnPakFileMounted2Time == 0.000090
+[2021.11.09-12.01.03:820][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.11.09-12.01.03:820][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:820][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.11.09-12.01.03:820][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
+[2021.11.09-12.01.03:836][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.11.09-12.01.03:836][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:836][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.11.09-12.01.03:836][  0]LogPakFile: OnPakFileMounted2Time == 0.000103
+[2021.11.09-12.01.03:852][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.11.09-12.01.03:852][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:852][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.11.09-12.01.03:852][  0]LogPakFile: OnPakFileMounted2Time == 0.000110
+[2021.11.09-12.01.03:856][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.11.09-12.01.03:856][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.11.09-12.01.03:856][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.11.09-12.01.03:856][  0]LogPakFile: OnPakFileMounted2Time == 0.000115
+[2021.11.09-12.01.05:753][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.11.09-12.01.06:040][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.11.09-12.01.06:353][  0]LogSlate: Took 0.017062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.09-12.01.06:581][  0]LogSlate: Took 0.226364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.11.09-12.01.06:624][  0]LogSlate: Took 0.041363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.11.09-12.01.06:659][  0]LogSlate: Took 0.032181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.11.09-12.01.07:429][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.11.09-12.01.07:579][  0]LogSlate: Took 0.043821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.09-12.01.07:913][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.11.09-12.01.07:913][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2021.11.09-12.01.07:914][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2021.11.09-12.01.07:914][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2021.11.09-12.01.07:914][  0]LogLoad: (Engine Initialization) Total time: 78.47 seconds
+[2021.11.09-12.01.07:914][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.11.09-12.01.07:914][  0]LogInit: First time updating LLM stats...
+[2021.11.09-12.01.07:984][  0]LogAssetRegistry: Asset discovery search completed in 43.1626 seconds
+[2021.11.09-12.01.07:986][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2021.11.09-12.01.08:045][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.11.09-12.02.10:959][588]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2021.11.09-12.07.27:256][399]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire_NeverEnding)
+[2021.11.09-12.08.15:746][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.11.09-12.08.20:439][486]LogSlate: Took 0.007158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.09-12.08.24:141][486]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/ActionRPGTest_Play.ActionRPGTest_Play
+[2021.11.09-12.08.24:147][486]Cmd: MAP LOAD FILE="../../../../../UEProject/ActionRPGTest/Content/Maps/ActionRPGTest_Play.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.09-12.08.24:147][486]LightingResults: New page: 光照构建
+[2021.11.09-12.08.24:157][486]LoadErrors: New page: 正在加载地图：ActionRPGTest_Play.umap
+[2021.11.09-12.08.24:294][486]LogWorld: UWorld::CleanupWorld for ActionRPGTest_Main, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-12.08.24:303][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.08.24:313][486]MapCheck: New page: 地图检测
+[2021.11.09-12.08.24:313][486]LightingResults: New page: 光照构建
+[2021.11.09-12.08.25:203][486]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.09-12.08.25:331][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.11.09-12.08.25:349][486]LogAudio: Display: Audio Device (ID: 1) registered with world 'ActionRPGTest_Play'.
+[2021.11.09-12.08.25:481][486]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.09-12.08.25:481][486]LogAIModule: Creating AISystem for world ActionRPGTest_Play
+[2021.11.09-12.08.25:549][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.11.09-12.08.25:627][486]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.09-12.08.25:627][486]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.132毫秒。
+[2021.11.09-12.08.25:627][486]LogFileHelpers: Loading map 'ActionRPGTest_Play' took 1.481
+[2021.11.09-12.17.54:447][879]LogTemp: Repeating last play command: 选中的视口
+[2021.11.09-12.17.54:736][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.09-12.17.54:814][879]PIE: New page: PIE会话：ActionRPGTest_Play（2021年11月10日 上午4:17:54）
+[2021.11.09-12.17.55:014][879]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.11.09-12.17.55:039][879]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.11.09-12.17.55:172][879]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ActionRPGTest_Play
+[2021.11.09-12.17.55:480][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.300023s)
+[2021.11.09-12.17.55:491][879]LogAIModule: Creating AISystem for world ActionRPGTest_Play
+[2021.11.09-12.17.55:542][879]LogPlayLevel: PIE: World Init took: (0.062043s)
+[2021.11.09-12.17.55:596][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ActionRPGTest_Play.ActionRPGTest_Play to /Game/Maps/UEDPIE_0_ActionRPGTest_Play.ActionRPGTest_Play (0.424325s)
+[2021.11.09-12.17.55:603][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.11.09-12.17.55:724][879]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.11.09-12.17.55:724][879]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.09-12.17.55:724][879]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.09-12.17.55:724][879]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.09-12.17.55:724][879]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.09-12.17.55:724][879]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.09-12.17.55:724][879]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.09-12.17.55:724][879]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.09-12.17.55:724][879]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.09-12.17.55:725][879]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.09-12.17.55:725][879]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.09-12.17.55:762][879]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.09-12.17.55:762][879]LogAudioMixer: Display: 1: FrontRight
+[2021.11.09-12.17.55:934][879]LogAudioMixer: Display: Using Audio Device Realtek Digital Output (Realtek High Definition Audio)
+[2021.11.09-12.17.55:934][879]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.09-12.17.55:934][879]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.09-12.17.55:934][879]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.09-12.17.55:935][879]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.09-12.17.55:935][879]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.09-12.17.55:935][879]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.09-12.17.55:949][879]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.09-12.17.55:949][879]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.09-12.17.55:949][879]LogInit: FAudioDevice initialized.
+[2021.11.09-12.17.55:949][879]LogAudio: Display: Audio Device (ID: 2) registered with world 'ActionRPGTest_Play'.
+[2021.11.09-12.17.56:094][879]LogLoad: Game class is 'BP_GameMode_C'
+[2021.11.09-12.17.56:280][879]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ActionRPGTest_Play.ActionRPGTest_Play up for play (max tick rate 0) at 2021.11.09-20.17.56
+[2021.11.09-12.17.56:294][879]LogWorld: Bringing up level for play took: 0.018098
+[2021.11.09-12.17.56:313][879]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.11.09-12.17.56:639][879]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.11.09-12.17.56:747][879]PIE: 登陆的服务器
+[2021.11.09-12.17.56:759][879]PIE: PIE总开始时间：2.234秒。
+[2021.11.09-12.17.57:392][882]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.11.09-12.18.26:479][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.18.26:479][449]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ActionRPGTest_Play
+[2021.11.09-12.18.26:515][449]LogWorld: UWorld::CleanupWorld for ActionRPGTest_Play, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-12.18.26:525][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.18.26:610][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.09-12.18.26:620][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.18.26:635][449]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.09-12.18.26:671][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-12.18.26:673][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-12.18.26:783][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.18.26:901][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.11.09-12.18.26:934][450]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.11.09-12.26.50:003][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.11.09-12.26.50:048][453]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/ActionRPGTest_Main.ActionRPGTest_Main
+[2021.11.09-12.26.50:048][453]Cmd: MAP LOAD FILE="../../../../../UEProject/ActionRPGTest/Content/Maps/ActionRPGTest_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.09-12.26.50:048][453]LightingResults: New page: 光照构建
+[2021.11.09-12.26.50:048][453]LoadErrors: New page: 正在加载地图：ActionRPGTest_Main.umap
+[2021.11.09-12.26.50:093][453]LogWorld: UWorld::CleanupWorld for ActionRPGTest_Play, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-12.26.50:093][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.26.50:093][453]MapCheck: New page: 地图检测
+[2021.11.09-12.26.50:093][453]LightingResults: New page: 光照构建
+[2021.11.09-12.26.50:099][453]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.09-12.26.50:173][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.11.09-12.26.50:175][453]LogAudio: Display: Audio Device (ID: 1) registered with world 'ActionRPGTest_Main'.
+[2021.11.09-12.26.50:228][453]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.09-12.26.50:229][453]LogAIModule: Creating AISystem for world ActionRPGTest_Main
+[2021.11.09-12.26.50:237][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.11.09-12.26.50:243][453]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.09-12.26.50:243][453]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.087毫秒。
+[2021.11.09-12.26.50:243][453]LogFileHelpers: Loading map 'ActionRPGTest_Main' took 0.195
+[2021.11.09-12.26.51:620][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.11.09-12.26.51:809][591]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/ActionRPGTest_Play.ActionRPGTest_Play
+[2021.11.09-12.26.51:810][591]Cmd: MAP LOAD FILE="../../../../../UEProject/ActionRPGTest/Content/Maps/ActionRPGTest_Play.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.09-12.26.51:810][591]LightingResults: New page: 光照构建
+[2021.11.09-12.26.51:810][591]LoadErrors: New page: 正在加载地图：ActionRPGTest_Play.umap
+[2021.11.09-12.26.51:810][591]LogWorld: UWorld::CleanupWorld for ActionRPGTest_Main, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-12.26.51:810][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.26.51:810][591]MapCheck: New page: 地图检测
+[2021.11.09-12.26.51:810][591]LightingResults: New page: 光照构建
+[2021.11.09-12.26.51:818][591]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.09-12.26.51:820][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.11.09-12.26.51:821][591]LogAudio: Display: Audio Device (ID: 1) registered with world 'ActionRPGTest_Play'.
+[2021.11.09-12.26.51:833][591]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.09-12.26.51:833][591]LogAIModule: Creating AISystem for world ActionRPGTest_Play
+[2021.11.09-12.26.51:846][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.11.09-12.26.51:858][591]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.09-12.26.51:858][591]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.132毫秒。
+[2021.11.09-12.26.51:858][591]LogFileHelpers: Loading map 'ActionRPGTest_Play' took 0.048
+[2021.11.09-12.33.01:800][ 28]LogTemp: Repeating last play command: 选中的视口
+[2021.11.09-12.33.01:806][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.09-12.33.01:806][ 28]PIE: New page: PIE会话：ActionRPGTest_Play（2021年11月10日 上午4:33:01）
+[2021.11.09-12.33.01:807][ 28]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ActionRPGTest_Play
+[2021.11.09-12.33.01:892][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085909s)
+[2021.11.09-12.33.01:893][ 28]LogAIModule: Creating AISystem for world ActionRPGTest_Play
+[2021.11.09-12.33.01:894][ 28]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2021.11.09-12.33.01:894][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ActionRPGTest_Play.ActionRPGTest_Play to /Game/Maps/UEDPIE_0_ActionRPGTest_Play.ActionRPGTest_Play (0.087293s)
+[2021.11.09-12.33.01:898][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.11.09-12.33.01:899][ 28]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.11.09-12.33.01:899][ 28]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.09-12.33.01:899][ 28]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.09-12.33.01:899][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.09-12.33.01:900][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.09-12.33.01:900][ 28]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.09-12.33.01:900][ 28]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.09-12.33.01:900][ 28]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.09-12.33.01:900][ 28]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.09-12.33.01:900][ 28]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.09-12.33.01:900][ 28]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.09-12.33.01:906][ 28]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.09-12.33.01:907][ 28]LogAudioMixer: Display: 1: FrontRight
+[2021.11.09-12.33.01:923][ 28]LogAudioMixer: Display: Using Audio Device Realtek Digital Output (Realtek High Definition Audio)
+[2021.11.09-12.33.01:923][ 28]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.09-12.33.01:923][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.09-12.33.01:923][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.09-12.33.01:924][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.09-12.33.01:924][ 28]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.09-12.33.01:924][ 28]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.09-12.33.01:937][ 28]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.09-12.33.01:937][ 28]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.09-12.33.01:937][ 28]LogInit: FAudioDevice initialized.
+[2021.11.09-12.33.01:937][ 28]LogAudio: Display: Audio Device (ID: 3) registered with world 'ActionRPGTest_Play'.
+[2021.11.09-12.33.01:947][ 28]LogLoad: Game class is 'BP_GameMode_C'
+[2021.11.09-12.33.01:952][ 28]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ActionRPGTest_Play.ActionRPGTest_Play up for play (max tick rate 0) at 2021.11.09-20.33.01
+[2021.11.09-12.33.01:953][ 28]LogWorld: Bringing up level for play took: 0.004434
+[2021.11.09-12.33.01:953][ 28]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.11.09-12.33.01:967][ 28]PIE: 登陆的服务器
+[2021.11.09-12.33.01:968][ 28]PIE: PIE总开始时间：0.163秒。
+[2021.11.09-12.33.24:723][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.33.24:723][622]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ActionRPGTest_Play
+[2021.11.09-12.33.24:723][622]LogWorld: UWorld::CleanupWorld for ActionRPGTest_Play, bSessionEnded=true, bCleanupResources=true
+[2021.11.09-12.33.24:724][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.33.24:734][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.09-12.33.24:736][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.09-12.33.24:740][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.09-12.33.24:741][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-12.33.24:742][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.09-12.33.24:759][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.11.09-12.33.24:799][625]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.11.10-02.08.47:587][539]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter
+[2021.11.10-02.08.48:326][539]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 126 classes and 0 folders.
+[2021.11.10-02.08.50:991][539]LogSlate: Took 0.012383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.10-02.08.52:703][639]LogSlate: Took 0.008759 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.11.10-02.08.53:950][748]LogSlate: Window 'BP_PlayerCharacter' being destroyed
+[2021.11.10-02.08.55:280][877]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:1).
+[2021.11.10-02.09.17:200][262]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/ABP_Player.ABP_Player
+[2021.11.10-02.09.17:391][262]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2021.11.10-02.09.18:193][262]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.11.10-02.09.18:479][262]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2021.11.10-02.09.20:517][262]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.11.10-02.09.26:122][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/ABP_Player" FILE="../../../../../UEProject/ActionRPGTest/Content/Characters/ABP_Player.uasset" SILENT=true
+[2021.11.10-02.09.26:377][865]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/ABP_Player2CD22A6F4E680D0C8DEE5DA3362150E8.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Characters/ABP_Player.uasset'
+[2021.11.10-02.09.26:417][865]AssetCheck: New page: 资产保存：ABP_Player
+[2021.11.10-02.09.26:417][865]LogContentValidation: Display: 正在验证AnimBlueprint /Game/Characters/ABP_Player.ABP_Player
+[2021.11.10-02.16.49:900][249]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2021.11.10-02.16.49:911][249]LogContentBrowser: Creating deferred item: NewInterface
+[2021.11.10-02.16.58:608][273]LogContentBrowser: Attempting asset rename: NewInterface -> IHuD
+[2021.11.10-02.16.58:706][273]LogContentBrowser: End creating deferred item NewInterface
+[2021.11.10-02.17.00:022][417]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/WidgetBP/IHuD.IHuD
+[2021.11.10-02.28.04:639][258]BlueprintLog: New page: 编译IHuD
+[2021.11.10-02.28.04:766][258]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.11.10-02.28.05:322][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/IHuD" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/IHuD.uasset" SILENT=true
+[2021.11.10-02.28.05:344][317]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/IHuD596230434F54AC19C6430D965EB64707.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/IHuD.uasset'
+[2021.11.10-02.28.05:365][317]AssetCheck: New page: 资产保存：IHuD
+[2021.11.10-02.28.05:365][317]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/WidgetBP/IHuD.IHuD
+[2021.11.10-02.28.06:423][429]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-02.28.06:423][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-02.29.11:434][728]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.11.10-02.29.11:446][728]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.11.10-02.29.20:495][814]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WB_HUD_PC
+[2021.11.10-02.29.20:497][814]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.11.10-02.29.21:185][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-02.29.21:256][892]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PCFFB48C0242283E5ED33A259E0EC18EEA.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-02.29.21:273][892]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-02.29.21:273][892]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-02.30.05:101][306]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-02.31.36:995][299]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2021.11.10-02.31.36:997][299]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.098
+[2021.11.10-02.31.36:997][299]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_HUD_PC] ([1] browsable assets)...
+[2021.11.10-02.31.36:997][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_HUD_PC]
+[2021.11.10-02.31.37:000][299]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC_Auto1D163E3DE4CA86557461EDDAF9667D322.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_HUD_PC_Auto1.uasset'
+[2021.11.10-02.31.37:001][299]LogFileHelpers: Auto-saving content packages took 0.004
+[2021.11.10-02.33.03:401][559]BlueprintLog: New page: 编译WB_HUD_PC
+[2021.11.10-02.33.03:461][559]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2021.11.10-02.33.03:829][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-02.33.03:833][594]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PCB01E2E39437B5C8CCAA52EAF90B32860.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-02.33.03:847][594]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-02.33.03:847][594]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-02.34.30:698][995]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.11.10-02.34.30:712][995]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.11.10-02.34.39:078][999]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WB_InputLabel
+[2021.11.10-02.34.39:079][999]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.11.10-02.34.39:728][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_InputLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset" SILENT=true
+[2021.11.10-02.34.39:731][ 73]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_InputLabel68B344FD46792C4E45E486AACF85E632.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset'
+[2021.11.10-02.34.39:748][ 73]AssetCheck: New page: 资产保存：WB_InputLabel
+[2021.11.10-02.34.39:748][ 73]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_InputLabel.WB_InputLabel
+[2021.11.10-02.34.40:879][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-02.34.40:884][202]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PCDB603D8347087A4C817E8E902457FAA5.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-02.34.40:900][202]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-02.34.40:900][202]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-02.34.41:362][254]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/WidgetBP/WB_InputLabel.WB_InputLabel
+[2021.11.10-02.37.31:041][594]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.11.10-02.37.40:613][618]LogSlate: Window '项目设置' being destroyed
+[2021.11.10-02.37.40:628][618]LogSlate: Window '项目设置' being destroyed
+[2021.11.10-02.42.03:177][312]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2021.11.10-02.42.03:180][312]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.111
+[2021.11.10-02.42.03:180][312]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_InputLabel] ([1] browsable assets)...
+[2021.11.10-02.42.03:180][312]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_InputLabel]
+[2021.11.10-02.42.03:184][312]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_InputLabel_Auto25E662EED41B54E60FE9DB8A4EFB54B0D.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_InputLabel_Auto2.uasset'
+[2021.11.10-02.42.03:184][312]LogFileHelpers: Auto-saving content packages took 0.004
+[2021.11.10-02.44.45:182][600]BlueprintLog: New page: 编译WB_InputLabel
+[2021.11.10-02.44.45:234][600]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2021.11.10-02.44.45:614][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_InputLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset" SILENT=true
+[2021.11.10-02.44.45:619][638]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_InputLabelE14F1A574AC361819D7411B2CE245461.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset'
+[2021.11.10-02.44.45:634][638]AssetCheck: New page: 资产保存：WB_InputLabel
+[2021.11.10-02.44.45:634][638]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_InputLabel.WB_InputLabel
+[2021.11.10-02.46.35:098][779]LogSlate: Took 0.012114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.11.10-02.47.06:496][200]BlueprintLog: New page: 编译WB_InputLabel
+[2021.11.10-02.47.06:572][200]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2021.11.10-02.47.06:891][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_InputLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset" SILENT=true
+[2021.11.10-02.47.06:896][233]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_InputLabel5F54D7694591657A64BB5F9838FCB807.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset'
+[2021.11.10-02.47.06:910][233]AssetCheck: New page: 资产保存：WB_InputLabel
+[2021.11.10-02.47.06:910][233]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_InputLabel.WB_InputLabel
+[2021.11.10-02.49.21:096][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_InputLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset" SILENT=true
+[2021.11.10-02.49.21:103][725]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_InputLabelE64CF2CD4A2BDF2B49985980F4F9576F.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset'
+[2021.11.10-02.49.21:137][725]AssetCheck: New page: 资产保存：WB_InputLabel
+[2021.11.10-02.49.21:137][725]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_InputLabel.WB_InputLabel
+[2021.11.10-02.49.41:762][598]BlueprintLog: New page: 编译WB_InputLabel
+[2021.11.10-02.49.41:826][598]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2021.11.10-02.49.42:139][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_InputLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset" SILENT=true
+[2021.11.10-02.49.42:146][628]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_InputLabel6C70A9E1456E7CFE066970B2EEDEE32B.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_InputLabel.uasset'
+[2021.11.10-02.49.42:163][628]AssetCheck: New page: 资产保存：WB_InputLabel
+[2021.11.10-02.49.42:164][628]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_InputLabel.WB_InputLabel
+[2021.11.10-02.49.44:552][877]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-02.49.44:552][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-02.49.44:564][877]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-02.49.44:564][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-02.50.35:778][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:778][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:779][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:780][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:781][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:783][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:802][451]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:810][452]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:810][452]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:810][452]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:812][452]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:835][453]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:837][453]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:843][454]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:852][455]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:854][455]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:860][456]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:862][456]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:868][457]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:877][458]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:878][458]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:885][459]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:887][459]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:894][460]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:902][461]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:903][461]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:910][462]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:913][462]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:919][463]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:927][464]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:927][464]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:927][464]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:929][464]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:936][465]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:937][465]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:944][466]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:952][467]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:954][467]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:961][468]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:962][468]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:964][468]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:985][469]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:994][470]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.35:995][470]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:003][471]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:010][472]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:019][473]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:027][474]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:029][474]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:035][475]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:045][476]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:053][477]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:070][479]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:078][480]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:094][482]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:096][482]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:102][483]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:105][483]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:111][484]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:137][485]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:143][486]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:145][486]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:160][488]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:161][488]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:168][489]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:184][491]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:186][491]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:192][492]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:194][492]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:209][494]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:209][494]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:209][494]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:211][494]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:218][495]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:225][496]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:235][497]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:242][498]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:244][498]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:259][500]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:262][500]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:268][501]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:285][503]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:294][504]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:310][506]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:318][507]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:335][509]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:343][510]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:360][512]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:368][513]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:385][515]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:393][516]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:409][518]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:419][519]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:426][520]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:437][521]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:445][522]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:461][524]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:470][525]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:486][527]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:495][528]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:511][530]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:520][531]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:536][533]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:545][534]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:561][536]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:570][537]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:587][539]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:595][540]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:599][540]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:606][541]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:606][541]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-02.50.36:619][541]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel_0.
+[2021.11.10-02.51.02:605][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-02.51.02:608][ 95]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC881FC40A4D6D85F77CFDBC9DEDE8CF93.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-02.51.02:625][ 95]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-02.51.02:625][ 95]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-02.51.12:416][207]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.11.10-02.51.12:431][207]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.11.10-02.51.21:773][328]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WB_PointsLabel
+[2021.11.10-02.51.21:774][328]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.11.10-02.51.23:353][510]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-02.51.24:822][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-02.51.24:825][640]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel30B3FE3E4A7515D266D15487BA493422.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-02.51.24:840][640]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-02.51.24:840][640]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-02.52.21:112][989]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2021.11.10-02.52.21:115][989]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.090
+[2021.11.10-02.52.21:115][989]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_PointsLabel] ([1] browsable assets)...
+[2021.11.10-02.52.21:115][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_PointsLabel]
+[2021.11.10-02.52.21:120][989]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel_Auto36954B39C4D1CEE467A7738A353D5A39D.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_PointsLabel_Auto3.uasset'
+[2021.11.10-02.52.21:120][989]LogFileHelpers: Auto-saving content packages took 0.005
+[2021.11.10-02.53.38:836][632]BlueprintLog: New page: 编译WB_PointsLabel
+[2021.11.10-02.53.38:939][632]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2021.11.10-02.53.39:367][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-02.53.39:371][676]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel0110DEC1492A2420EF6387871FB37640.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-02.53.39:390][676]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-02.53.39:390][676]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-02.54.50:984][176]BlueprintLog: New page: 编译WB_PointsLabel
+[2021.11.10-02.54.51:043][176]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2021.11.10-02.54.51:333][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-02.54.51:337][206]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel13FA35DC45FA4BA2FFF0E4A28ACEF154.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-02.54.51:351][206]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-02.54.51:351][206]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-02.58.15:280][440]BlueprintLog: New page: 编译WB_PointsLabel
+[2021.11.10-02.58.15:341][440]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2021.11.10-02.58.15:744][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-02.58.15:749][481]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabelBB3E6163419DCF9B4610EB91E19CC511.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-02.58.15:764][481]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-02.58.15:765][481]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-03.03.10:100][294]BlueprintLog: New page: 编译WB_PointsLabel
+[2021.11.10-03.03.10:167][294]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2021.11.10-03.03.10:551][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-03.03.10:556][326]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabelB424992846837C99487AE3882F328712.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-03.03.10:572][326]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-03.03.10:572][326]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-03.05.09:069][336]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.11.10-03.05.09:072][336]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.064
+[2021.11.10-03.05.09:072][336]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_PointsLabel] ([1] browsable assets)...
+[2021.11.10-03.05.09:072][336]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_PointsLabel]
+[2021.11.10-03.05.09:077][336]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel_Auto4ED034F73445938B01C1E30BAF1CD652E.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_PointsLabel_Auto4.uasset'
+[2021.11.10-03.05.09:079][336]LogFileHelpers: Auto-saving content packages took 0.007
+[2021.11.10-03.07.51:007][138]BlueprintLog: New page: 编译WB_PointsLabel
+[2021.11.10-03.07.51:049][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2021.11.10-03.07.51:313][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-03.07.51:318][161]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel6A2FCB9E4BB26D0A36F80886EEF6489D.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-03.07.51:337][161]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-03.07.51:337][161]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-03.11.58:934][284]BlueprintLog: New page: 编译WB_PointsLabel
+[2021.11.10-03.11.58:996][284]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.11.10-03.11.59:523][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-03.11.59:529][341]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel30882E0C43108038DF20CFB997732A2F.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-03.11.59:546][341]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-03.11.59:546][341]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-03.13.22:419][332]BlueprintLog: New page: 编译WB_PointsLabel
+[2021.11.10-03.13.22:479][332]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2021.11.10-03.13.22:906][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_PointsLabel" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset" SILENT=true
+[2021.11.10-03.13.22:913][377]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_PointsLabel251658144A2406DB9226BB9E831C507E.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_PointsLabel.uasset'
+[2021.11.10-03.13.22:947][377]AssetCheck: New page: 资产保存：WB_PointsLabel
+[2021.11.10-03.13.22:947][377]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel
+[2021.11.10-03.13.26:332][763]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:332][763]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:352][764]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:360][765]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:362][765]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:368][766]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:370][766]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:376][767]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:385][768]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:386][768]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:386][768]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:387][768]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:389][768]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:403][769]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:404][769]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:405][769]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:411][770]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:419][771]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:421][771]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:428][772]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:429][772]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:436][773]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:436][773]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:436][773]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:444][774]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:446][774]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:453][775]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:455][775]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:469][776]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:476][777]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:478][777]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:485][778]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:493][779]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:501][780]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:503][780]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:509][781]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:512][781]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:533][782]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:542][783]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:542][783]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:542][783]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:544][783]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:550][784]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:552][784]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:567][786]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:568][786]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:577][787]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:583][788]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:592][789]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:600][790]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:602][790]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:618][792]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:626][793]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:633][794]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:642][795]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:650][796]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:652][796]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:658][797]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:668][798]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:675][799]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:677][799]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:693][801]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:701][802]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:718][804]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:726][805]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:743][807]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:751][808]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:767][810]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:776][811]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:792][813]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:801][814]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:817][816]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:826][817]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:842][819]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:851][820]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:867][822]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:876][823]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:892][825]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:901][826]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:917][828]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:917][828]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel.
+[2021.11.10-03.13.26:920][828]LogUMG: Error: Widget Class WB_PointsLabel_C - Running Initialize On Archetype, WB_PointsLabel_0.
+[2021.11.10-03.14.10:415][902]BlueprintLog: New page: 编译WB_HUD_PC
+[2021.11.10-03.14.10:459][902]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.11.10-03.14.10:887][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-03.14.10:891][942]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC21F31F7948FC3A68FCD0428A836E160C.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-03.14.10:910][942]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-03.14.10:910][942]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-03.15.26:569][888]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2021.11.10-03.15.26:571][888]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.049
+[2021.11.10-03.15.26:571][888]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_HUD_PC] ([1] browsable assets)...
+[2021.11.10-03.15.26:571][888]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_HUD_PC]
+[2021.11.10-03.15.26:577][888]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC_Auto50F6263FC421241E44A8A5FBBEDA0EB17.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_HUD_PC_Auto5.uasset'
+[2021.11.10-03.15.26:578][888]LogFileHelpers: Auto-saving content packages took 0.007
+[2021.11.10-03.16.21:194][262]BlueprintLog: New page: 编译WB_HUD_PC
+[2021.11.10-03.16.21:234][262]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.11.10-03.16.21:667][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-03.16.21:672][302]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC3DCC4E174B488F4DFAEB02B3968F6DCF.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-03.16.21:690][302]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-03.16.21:690][302]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-03.27.54:336][833]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2021.11.10-03.27.54:338][833]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.050
+[2021.11.10-03.27.54:338][833]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_HUD_PC] ([1] browsable assets)...
+[2021.11.10-03.27.54:338][833]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_HUD_PC]
+[2021.11.10-03.27.54:344][833]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC_Auto64BAFA7E5488ABE00B6B5B49B9F95EFD9.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_HUD_PC_Auto6.uasset'
+[2021.11.10-03.27.54:344][833]LogFileHelpers: Auto-saving content packages took 0.006
+[2021.11.10-03.30.07:623][429]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:623][429]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:644][430]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:644][430]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:644][430]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:645][430]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:647][430]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:661][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:662][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:662][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:666][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:667][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:668][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:669][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:670][431]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:693][432]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:693][432]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:693][432]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:695][432]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:697][432]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:697][432]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:699][432]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:704][433]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:707][433]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:712][434]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:721][435]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:721][435]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:721][435]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:723][435]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:744][436]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:745][436]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:747][436]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:753][437]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:753][437]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:753][437]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:778][438]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:779][438]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:781][438]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:781][438]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:781][438]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:795][439]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:797][439]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:798][439]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:798][439]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:800][439]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:804][440]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:806][440]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:808][440]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:808][440]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:814][441]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:814][441]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:814][441]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:816][441]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:816][441]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:818][441]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:844][442]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:844][442]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:844][442]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:845][442]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:847][442]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:853][443]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:855][443]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:876][444]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:878][444]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:893][445]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:893][445]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:893][445]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:895][445]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:902][446]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:910][447]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:912][447]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:927][448]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:929][448]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:935][449]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:944][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:946][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:948][450]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:960][451]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:962][451]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:962][451]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:962][451]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:964][451]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:977][453]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:979][453]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.07:985][454]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:002][456]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:003][456]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:011][457]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:027][459]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:035][460]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:037][460]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:052][462]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:060][463]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:076][465]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:086][466]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:103][468]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:111][469]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:127][471]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:136][472]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:152][474]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:160][475]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:177][477]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:185][478]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:202][480]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:210][481]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:227][483]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:235][484]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:252][486]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:260][487]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:278][489]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:285][490]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:302][492]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:311][493]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:326][495]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:335][496]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:352][498]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:360][499]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:377][501]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:385][502]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:401][504]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:402][504]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel.
+[2021.11.10-03.30.08:416][504]LogUMG: Error: Widget Class WB_InputLabel_C - Running Initialize On Archetype, WB_InputLabel_1.
+[2021.11.10-03.40.12:495][690]BlueprintLog: New page: 编译WB_HUD_PC
+[2021.11.10-03.40.12:543][690]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2021.11.10-03.40.12:830][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-03.40.12:837][715]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC9623F43C4D5B7AD68CBF14AE9C9238D4.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-03.40.12:854][715]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-03.40.12:854][715]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-03.43.01:972][509]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2021.11.10-03.43.01:974][509]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.055
+[2021.11.10-03.43.01:974][509]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_HUD_PC] ([1] browsable assets)...
+[2021.11.10-03.43.01:974][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_HUD_PC]
+[2021.11.10-03.43.01:981][509]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC_Auto7FE283C50422F8CCF7483C69852CC8242.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_HUD_PC_Auto7.uasset'
+[2021.11.10-03.43.01:981][509]LogFileHelpers: Auto-saving content packages took 0.007
+[2021.11.10-03.53.02:352][720]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2021.11.10-03.53.02:355][720]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.057
+[2021.11.10-03.53.02:355][720]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_HUD_PC] ([1] browsable assets)...
+[2021.11.10-03.53.02:355][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_HUD_PC]
+[2021.11.10-03.53.02:367][720]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC_Auto8CFF093FA4862A452B5218985E8CD169C.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_HUD_PC_Auto8.uasset'
+[2021.11.10-03.53.02:368][720]LogFileHelpers: Auto-saving content packages took 0.013
+[2021.11.10-03.55.18:894][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-03.55.18:902][588]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PCB41861B443D40210BD14CE88A4E921D0.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-03.55.18:918][588]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-03.55.18:918][588]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-03.55.19:879][699]BlueprintLog: New page: 编译WB_HUD_PC
+[2021.11.10-03.55.19:941][699]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.11.10-03.55.20:226][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-03.55.20:234][722]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PCECD869FA48E6EBBB201D609C609CFAAF.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-03.55.20:255][722]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-03.55.20:255][722]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-04.04.04:833][429]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.11.10-04.04.04:835][429]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.054
+[2021.11.10-04.04.04:835][429]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/WidgetBP/WB_HUD_PC] ([1] browsable assets)...
+[2021.11.10-04.04.04:835][429]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WidgetBP/WB_HUD_PC]
+[2021.11.10-04.04.04:845][429]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC_Auto9128165CE4E28952254786D944CAECA76.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/WidgetBP/WB_HUD_PC_Auto9.uasset'
+[2021.11.10-04.04.04:845][429]LogFileHelpers: Auto-saving content packages took 0.010
+[2021.11.10-04.05.39:096][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-04.05.39:106][793]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC91751C3D441E887A93B3DDADB8AAC9B8.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-04.05.39:122][793]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-04.05.39:122][793]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-04.05.59:110][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-04.05.59:119][123]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC7F10245C4859E82B7B0823A131F0286E.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-04.05.59:134][123]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-04.05.59:134][123]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-04.07.43:992][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-04.07.44:002][896]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC793FD7DC4090CC6C0873F5B62A4E88DD.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-04.07.44:019][896]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-04.07.44:019][896]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-04.07.45:285][ 45]BlueprintLog: New page: 编译WB_HUD_PC
+[2021.11.10-04.07.45:355][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.11.10-04.07.45:825][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/WB_HUD_PC" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset" SILENT=true
+[2021.11.10-04.07.45:835][ 91]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/WB_HUD_PC64B358F94CEE02E494A47F86975DA333.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/WB_HUD_PC.uasset'
+[2021.11.10-04.07.45:855][ 91]AssetCheck: New page: 资产保存：WB_HUD_PC
+[2021.11.10-04.07.45:856][ 91]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/WidgetBP/WB_HUD_PC.WB_HUD_PC
+[2021.11.10-04.07.46:829][193]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-04.07.46:829][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-04.07.46:879][193]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-04.07.46:879][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-04.11.38:586][878]BlueprintLog: New page: 编译BP_PlayerCharacter
+[2021.11.10-04.11.38:833][878]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2021.11.10-04.11.39:019][878]LogSlate: Took 0.012145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.11.10-04.11.39:378][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerCharacter" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerCharacter.uasset" SILENT=true
+[2021.11.10-04.11.39:392][916]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_PlayerCharacterC1A4434F42CCB26ECA7C74824112B0C5.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerCharacter.uasset'
+[2021.11.10-04.11.39:413][916]AssetCheck: New page: 资产保存：BP_PlayerCharacter
+[2021.11.10-04.11.39:413][916]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter
+[2021.11.10-04.11.49:586][ 45]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_RPGFunctionLibrary.BP_RPGFunctionLibrary
+[2021.11.10-04.13.10:501][290]BlueprintLog: New page: 编译BP_RPGFunctionLibrary
+[2021.11.10-04.13.10:576][290]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2021.11.10-04.13.10:849][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_RPGFunctionLibrary" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset" SILENT=true
+[2021.11.10-04.13.10:856][315]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_RPGFunctionLibraryF0BC15F54EBD631A5A923C99F81CD9C5.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset'
+[2021.11.10-04.13.10:902][315]AssetCheck: New page: 资产保存：BP_RPGFunctionLibrary
+[2021.11.10-04.13.10:902][315]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_RPGFunctionLibrary.BP_RPGFunctionLibrary
+[2021.11.10-04.14.06:799][168]LogHttp: Warning: 000001ECC142F200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE899DD50-4B9D-B90A-F80D-AEAAF7499871%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=fae295ae4067db5bdacb8785be780437%7Ca753e94778344077830c692490b97c65%7C440e548e-859f-49b8-b92f-195fb7d2b316&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.11.10-04.14.06:799][168]LogHttp: Warning: 000001ECC142F200: request failed, libcurl error: 0 (No error)
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1ec04be7eb0 [can pipeline])
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 1 (Re-using existing connection! (#3) with proxy 127.0.0.1)
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 10809 (#3))
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 6 (Closing connection 3)
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: 000001ECC142F200: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.11.10-04.14.06:800][168]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE899DD50-4B9D-B90A-F80D-AEAAF7499871%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=fae295ae4067db5bdacb8785be780437%7Ca753e94778344077830c692490b97c65%7C440e548e-859f-49b8-b92f-195fb7d2b316&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.11.10-04.15.17:760][377]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2021.11.10-04.15.17:762][377]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ActionRPGTest_Play' took 0.043
+[2021.11.10-04.15.17:762][377]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_RPGFunctionLibrary] ([1] browsable assets)...
+[2021.11.10-04.15.17:762][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_RPGFunctionLibrary]
+[2021.11.10-04.15.17:769][377]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_RPGFunctionLibrary_Auto0907C0DEE428E5E7D5FD6F3876CA808D3.tmp' to '../../../../../UEProject/ActionRPGTest/Saved/Autosaves/Game/Blueprints/BP_RPGFunctionLibrary_Auto0.uasset'
+[2021.11.10-04.15.17:770][377]LogFileHelpers: Auto-saving content packages took 0.008
+[2021.11.10-04.15.33:511][843]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.11.10-04.15.35:417][ 19]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-04.15.35:417][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-04.15.35:511][ 19]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.11.10-04.16.23:673][447]BlueprintLog: New page: 编译BP_GameMode
+[2021.11.10-04.16.23:782][447]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.11.10-04.16.24:063][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.11.10-04.16.24:067][471]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_GameMode7A0AAA5E484B7EF38F6808A43731E6B2.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_GameMode.uasset'
+[2021.11.10-04.16.24:084][471]AssetCheck: New page: 资产保存：BP_GameMode
+[2021.11.10-04.16.24:084][471]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.11.10-04.18.28:636][526]BlueprintLog: New page: 编译BP_RPGFunctionLibrary
+[2021.11.10-04.18.28:681][526]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.11.10-04.18.29:026][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_RPGFunctionLibrary" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset" SILENT=true
+[2021.11.10-04.18.29:036][559]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_RPGFunctionLibraryBB01E2A34335531561CDF28D96B104A7.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset'
+[2021.11.10-04.18.29:053][559]AssetCheck: New page: 资产保存：BP_RPGFunctionLibrary
+[2021.11.10-04.18.29:054][559]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_RPGFunctionLibrary.BP_RPGFunctionLibrary
+[2021.11.10-04.19.31:306][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_RPGFunctionLibrary" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset" SILENT=true
+[2021.11.10-04.19.31:318][559]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_RPGFunctionLibraryE3DC1D674A1ECF2E7ED8B7952C4EFE68.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset'
+[2021.11.10-04.19.31:333][559]AssetCheck: New page: 资产保存：BP_RPGFunctionLibrary
+[2021.11.10-04.19.31:333][559]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_RPGFunctionLibrary.BP_RPGFunctionLibrary
+[2021.11.10-04.19.36:273][ 79]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerController.BP_PlayerController
+[2021.11.10-04.19.37:913][232]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-04.19.37:913][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-04.19.37:972][232]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerController.BP_PlayerController
+[2021.11.10-04.20.31:866][355]BlueprintLog: New page: 编译BP_PlayerController
+[2021.11.10-04.20.31:980][355]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.11.10-04.20.32:487][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerController" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerController.uasset" SILENT=true
+[2021.11.10-04.20.32:490][406]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_PlayerController770520BA4D41256D3977C0B3A73726F5.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerController.uasset'
+[2021.11.10-04.20.32:514][406]AssetCheck: New page: 资产保存：BP_PlayerController
+[2021.11.10-04.20.32:514][406]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_PlayerController.BP_PlayerController
+[2021.11.10-04.22.18:497][155]BlueprintLog: New page: 编译BP_RPGFunctionLibrary
+[2021.11.10-04.22.18:540][155]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.11.10-04.22.19:754][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_RPGFunctionLibrary" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset" SILENT=true
+[2021.11.10-04.22.19:765][284]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_RPGFunctionLibrary19A6B692461CFDA3A9D4C49F446F3B27.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_RPGFunctionLibrary.uasset'
+[2021.11.10-04.22.19:787][284]AssetCheck: New page: 资产保存：BP_RPGFunctionLibrary
+[2021.11.10-04.22.19:787][284]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_RPGFunctionLibrary.BP_RPGFunctionLibrary
+[2021.11.10-04.22.20:509][353]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2021.11.10-04.22.20:509][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.10-04.23.36:401][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerController" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerController.uasset" SILENT=true
+[2021.11.10-04.23.36:406][ 58]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_PlayerController46B165DD4C75759D3239799BA7916304.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerController.uasset'
+[2021.11.10-04.23.36:421][ 58]AssetCheck: New page: 资产保存：BP_PlayerController
+[2021.11.10-04.23.36:422][ 58]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_PlayerController.BP_PlayerController
+[2021.11.10-04.23.37:438][177]BlueprintLog: New page: 编译BP_PlayerController
+[2021.11.10-04.23.37:500][177]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.11.10-04.23.37:850][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerController" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerController.uasset" SILENT=true
+[2021.11.10-04.23.37:854][210]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_PlayerController0B98BD7C492F2A75A2EC1D865E81EB29.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerController.uasset'
+[2021.11.10-04.23.37:873][210]AssetCheck: New page: 资产保存：BP_PlayerController
+[2021.11.10-04.23.37:873][210]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_PlayerController.BP_PlayerController
+[2021.11.10-04.24.11:483][180]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/WidgetBP/IHuD.IHuD
+[2021.11.10-04.24.28:785][178]BlueprintLog: New page: 编译IHuD
+[2021.11.10-04.24.28:825][178]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.11.10-04.24.29:165][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/IHuD" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/IHuD.uasset" SILENT=true
+[2021.11.10-04.24.29:167][214]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/IHuDC6B7400A4758459EA5F93E9198D2160B.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/IHuD.uasset'
+[2021.11.10-04.24.29:185][214]AssetCheck: New page: 资产保存：IHuD
+[2021.11.10-04.24.29:185][214]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/WidgetBP/IHuD.IHuD
+[2021.11.10-04.24.33:293][697]BlueprintLog: New page: 编译BP_PlayerCharacter
+[2021.11.10-04.24.33:361][697]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.11.10-04.24.34:359][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerCharacter" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerCharacter.uasset" SILENT=true
+[2021.11.10-04.24.34:371][798]LogSavePackage: Moving '../../../../../UEProject/ActionRPGTest/Saved/BP_PlayerCharacter7A24C89F4EDFED6DF4EE7C9BDF029817.tmp' to '../../../../../UEProject/ActionRPGTest/Content/Blueprints/BP_PlayerCharacter.uasset'
+[2021.11.10-04.24.34:391][798]AssetCheck: New page: 资产保存：BP_PlayerCharacter
+[2021.11.10-04.24.34:391][798]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter
+[2021.11.10-04.25.00:204][757]LogContentBrowser: Attempting asset rename: IHuD -> IHuD
+[2021.11.10-04.25.04:416][262]LogContentBrowser: Attempting asset rename: IHuD -> IHUD
+[2021.11.10-04.25.04:547][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WidgetBP/IHuD" FILE="../../../../../UEProject/ActionRPGTest/Content/Blueprints/WidgetBP/IHuD.uasset" SILENT=true
+[2021.11.10-04.25.04:595][262]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.11.10-04.25.07:917][262]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.321 s
+[2021.11.10-04.25.07:921][262]LogOutputDevice: Error: === Handled ensure: ===
+[2021.11.10-04.25.07:921][262]LogOutputDevice: Error: 
+[2021.11.10-04.25.07:921][262]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: Found circular redirect from /Game/Blueprints/WidgetBP/IHuD.IHuD to /Game/Blueprints/WidgetBP/IHUD.IHUD! Returning None instead
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: Stack: 
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e767093 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e312810 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e64f236 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e66834e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e347cb7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4ed45162 UE4Editor-Core.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e65fcc3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e55e699 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e4b5896 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e613ec7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e614444 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e4b85e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e4b609c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e4b59ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e613ec7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e5a9175 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:922][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e614444 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e4b85e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e4b609c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e5a9504 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e5a7af0 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e5a755b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4b705b20 UE4Editor-Engine.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4b705714 UE4Editor-Engine.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e5f67d2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e618a5b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff4e5fdfec UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff48cf276e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff48cf325e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff48d2e762 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff48d2b09c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff495acc97 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff49029093 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff490279ad UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:923][262]LogOutputDevice: Error: [Callstack] 0x00007fff49050a50 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3d88e2c7 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3d82ffca UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3d8a8c92 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff263ef233 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff263ef521 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff263ef5fb UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3d6f88a6 UE4Editor-ContentBrowserData.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3e02402e UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3e068ebf UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3e088c3b UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff3e0680e7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a7e5fb4 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a7cb857 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a774c98 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a7537a7 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a7d3c66 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a7d5078 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a6cf084 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a5125b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a57e399 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:924][262]LogOutputDevice: Error: [Callstack] 0x00007fff4a572236 UE4Editor-Slate.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fff501fb948 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fff501e9197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fff501fe379 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fff501e4310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fffb44be7e8 USER32.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fffb44be229 USER32.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fff501ff904 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007ff6a23a8857 UE4Editor.exe!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007ff6a23c11ac UE4Editor.exe!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007ff6a23c128a UE4Editor.exe!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007ff6a23d52ed UE4Editor.exe!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007ff6a23d801a UE4Editor.exe!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fffb3af7034 KERNEL32.DLL!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: [Callstack] 0x00007fffb4882651 ntdll.dll!UnknownFunction []
+[2021.11.10-04.25.07:925][262]LogOutputDevice: Error: 
