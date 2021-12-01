@@ -6,6 +6,7 @@
 #include "../ActionRPGTest.h"
 #include "Engine/DataAsset.h"
 //#include "Styling/SlateBrush.h"
+#include "Abilities/RPGGameplayAbility.h"
 #include "RPGAssetManager.h"
 #include "RPGItem.generated.h"
 
@@ -21,17 +22,6 @@ public:
 
 	URPGItem():Price(0), MaxCount(1), MaxLevel(1),AbilityLevel(1) {}
 
-	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Item)
-	int32 Price;
-
-	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Max)
-	int32 MaxCount;
-
-	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Max)
-	int32 MaxLevel;
-
-	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Abilities)
-	int32 AbilityLevel;
 
 	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Item)
 		FPrimaryAssetType ItemType;
@@ -42,8 +32,23 @@ public:
 	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Item)
 		FText ItemDescription;
 
-	/*UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Item)
-		FSlateBrush ItemIcon;*/
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Item)
+	//	FSlateBrush ItemIcon;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Item)
+		int32 Price;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Max)
+		int32 MaxCount;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Max)
+		int32 MaxLevel;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Abilities)
+		TSubclassOf<URPGGameplayAbility> GrantedAbility;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = Abilities)
+		int32 AbilityLevel;
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = Max)
 		bool IsConSumable() const;

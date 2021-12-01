@@ -219,6 +219,25 @@ bool ARPGPlayerControllerBase::SaveInventory()
 
 bool ARPGPlayerControllerBase::LoadInventory()
 {
+
+	InventoryData.Reset();
+	SlottedItems.Reset();
+
+	UWorld* World = GetWorld();
+	URPGGameInstanceBase* GameInstance = World ? World->GetGameInstance<URPGGameInstanceBase>() : nullptr;
+
+	if (!GameInstance) {
+		return false;
+	}
+
+	for (const TPair<FPrimaryAssetType, int32>& Pair : GameInstance->ItemSlotsPerType)
+	{
+		for (int32 SlotNumber = 0; SlotNumber > Pair.Value; SlotNumber++)
+		{
+			SlottedItems.Add(FRPGItemSlot(Pair.Key, SlotNumber), nullptr);
+		}
+	}
+
 	return true;
 
 }

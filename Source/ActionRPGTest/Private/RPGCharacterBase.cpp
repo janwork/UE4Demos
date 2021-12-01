@@ -158,3 +158,90 @@ void ARPGCharacterBase::RemoveStartupGameplayAbilities()
 
 }
 
+bool ARPGCharacterBase::ActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, bool bAllowRemoteActivation /*= true*/)
+{
+	FGameplayAbilitySpecHandle* FoundHandle = SlottedAbilities.Find(ItemSlot);
+
+	if (FoundHandle && AbilitySystemComponent)
+	{
+		return AbilitySystemComponent->TryActivateAbility(*FoundHandle, bAllowRemoteActivation);
+	}
+
+
+	return false;
+}
+
+void ARPGCharacterBase::GetActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, TArray<URPGGameplayAbility*>& ActiveAbilities)
+{
+	FGameplayAbilitySpecHandle* FoundHandle = SlottedAbilities.Find(ItemSlot);
+
+
+	if (FoundHandle && AbilitySystemComponent)
+	{
+		FGameplayAbilitySpec* FoundSpec = AbilitySystemComponent->FindAbilitySpecFromHandle(*FoundHandle);
+
+		if (FoundHandle)
+		{
+			TArray<UGameplayAbility*> AbilityInstances = FoundSpec->GetAbilityInstances();
+
+			for (UGameplayAbility* ActiveAbility : AbilityInstances)
+			{
+				ActiveAbilities.Add(Cast<URPGGameplayAbility>(ActiveAbility));
+			}
+		}
+	}
+}
+
+bool ARPGCharacterBase::ActivateAbilitiesWithTags(FGameplayTagContainer AbilityTags, bool bAllowRemoteActivation /*= true*/)
+{
+	if (AbilitySystemComponent)
+	{
+		return AbilitySystemComponent->TryActivateAbilitiesByTag(AbilityTags, bAllowRemoteActivation);
+	}
+
+
+	return false;
+}
+
+void ARPGCharacterBase::GetActiveAbilitiesWithTags(FGameplayTagContainer AbilityTags, TArray<URPGGameplayAbility*>& ActiveAbilities)
+{
+	if (AbilitySystemComponent) {
+		AbilitySystemComponent->GetActiveAbilitiesWithTags(AbilityTags, ActiveAbilities);
+	}
+}
+
+bool ARPGCharacterBase::GetCooldownRemainingForTag(FGameplayTagContainer CooldownTags, float& TimeRemaining, float& CooldownDuration)
+{
+	if (AbilitySystemComponent && CooldownTags.Num() > 0)
+	{
+		TimeRemaining = 0.f;
+		CooldownDuration = 0.f;
+
+		FGameplayEffectQuery const Query = FGameplayEffectQuery::MakeQuery_MatchAnyOwningTags(CooldownTags);
+		TArray<TPair<float, float>> DurationAndTimeRemaining = AbilitySystemComponent->GetActiveEffectsTimeRemainingAndDuration(Query);
+
+		if (DurationAndTimeRemaining.Num() > 0)
+		{
+			int32 BestIdx = 0;
+			float LongestTime = DurationAndTimeRemaining[0].Key;
+
+			for (int32 Idx = 1; Idx < DurationAndTimeRemaining.Num(); ++Idx)
+			{
+				if (DurationAndTimeRemaining[Idx].Key > LongestTime)
+				{
+					BestIdx = Idx;
+				}
+			}
+
+
+			TimeRemaining = DurationAndTimeRemaining[BestIdx].Key;
+			CooldownDuration = DurationAndTimeRemaining[BestIdx].Value;
+
+			return true;
+
+		}
+	}
+
+	return false;
+}
+

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "RPGTypes.h"
 #include "AbilitySystemInterface.h"
 #include "Abilities/RPGAbilitySystemComponent.h"
 #include "Abilities/RPGAttributeSet.h"
@@ -73,6 +74,24 @@ public:
 
 	void RemoveStartupGameplayAbilities(); // 移除 gameplayAbilities and Effects
 
+	UFUNCTION(BlueprintCallable, Category = "Abilities")
+		bool ActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, bool bAllowRemoteActivation = true);
+
+	UFUNCTION(BlueprintCallable, Category = "Abilities")
+		void GetActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, TArray<URPGGameplayAbility*>& ActiveAbilities);
+
+
+
+	// 是否激活的技能
+	UFUNCTION(BlueprintCallable,  Category = "Abilities")
+		bool ActivateAbilitiesWithTags(FGameplayTagContainer AbilityTags, bool bAllowRemoteActivation = true);
+
+	UFUNCTION(BlueprintCallable, Category = "Abilities")
+		void GetActiveAbilitiesWithTags(FGameplayTagContainer AbilityTags, TArray<URPGGameplayAbility*>& ActiveAbilities);
+
+	UFUNCTION(BlueprintCallable, Category = "Abilities")
+		bool GetCooldownRemainingForTag(FGameplayTagContainer CooldownTags, float& TimeRemaining, float& CooldownDuration);
+
 public:
 
 	UPROPERTY()
@@ -84,16 +103,19 @@ public:
 	UPROPERTY()
 		int32 bAbilitiesInitialized;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Inventory)
+		TMap<FRPGItemSlot, FGameplayAbilitySpecHandle> SlottedAbilities;
+
 	UPROPERTY(EditAnywhere, Replicated, Category = Abilities)
 		int32 CharacterLevel;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
 		TArray<TSubclassOf<URPGGameplayAbility>> GameplayAbilities;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
-	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
 		TArray<TSubclassOf<UGameplayEffect>> PassiveGameplayEffects;
+
+
 
 
 
