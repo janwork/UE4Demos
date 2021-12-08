@@ -14,7 +14,7 @@ ARPGPlayerControllerBase::ARPGPlayerControllerBase()
 
 void ARPGPlayerControllerBase::BeginPlay()
 {
-
+	LoadInventory();
 	Super::BeginPlay();
 }
 
@@ -180,7 +180,7 @@ URPGItem* ARPGPlayerControllerBase::GetSlottedItem(FRPGItemSlot ItemSlot) const
 	URPGItem* const* FoundItem = SlottedItems.Find(ItemSlot);
 
 	if (FoundItem) {
-			return *FoundItem;
+		return *FoundItem;
 	}
 
 	return nullptr;
@@ -232,7 +232,7 @@ bool ARPGPlayerControllerBase::LoadInventory()
 
 	for (const TPair<FPrimaryAssetType, int32>& Pair : GameInstance->ItemSlotsPerType)
 	{
-		for (int32 SlotNumber = 0; SlotNumber > Pair.Value; SlotNumber++)
+		for (int32 SlotNumber = 0; SlotNumber < Pair.Value; SlotNumber++)
 		{
 			SlottedItems.Add(FRPGItemSlot(Pair.Key, SlotNumber), nullptr);
 		}
@@ -297,3 +297,5 @@ void ARPGPlayerControllerBase::HandledSaveSameLoaded()
 {
 	LoadInventory();
 }
+
+
