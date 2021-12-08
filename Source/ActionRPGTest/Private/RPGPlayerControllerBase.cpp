@@ -4,6 +4,7 @@
 #include "RPGPlayerControllerBase.h"
 #include "RPGCharacterBase.h"
 #include "RPGGameInstanceBase.h"
+#include "RPGAssetManager.h"
 #include "Item/RPGItem.h"
 
 
@@ -214,9 +215,57 @@ void ARPGPlayerControllerBase::FillEmptySlots()
 
 bool ARPGPlayerControllerBase::SaveInventory()
 {
-	return true;
+	UWorld* World = GetWorld();
+
+	URPGGameInstanceBase* GameInstance = World ? World->GetGameInstance<URPGGameInstanceBase>() : nullptr;
+
+	if (!GameInstance) {
+		return false;
+	}
+
+	URPGSaveGame* CurrentSaveGame = GameInstance->GetCurrentSaveGame();
+	if (CurrentSaveGame)
+	{
+		CurrentSaveGame->InventoryData.Reset();
+		CurrentSaveGame->SlottedItems.Reset();
+
+		for (const TPair<URPGItem*, FRPGItemData>& ItemPair : InventoryData)
+		{
+			FPrimaryAssetId AssetId;
+
+			if (ItemPair.Key)
+			{
+				AssetId = ItemPair.Key->GetPrimaryAssetId();
+
+				if (ItemPair.Key)
+				{
+					AssetId = ItemPair.Key->GetPrimaryAssetId();
+					CurrentSaveGame->InventoryData.Add(AssetId, ItemPair.Value);
+				}
+			}
+		}
+
+		for (const TPair<FRPGItemSlot, URPGItem*>& SlotPair : SlottedItems)
+		{
+			FPrimaryAssetId AssetId;
+
+			if (SlotPair.Value) {
+				AssetId = SlotPair.Value->GetPrimaryAssetId();
+			}
+
+			CurrentSaveGame->SlottedItems.Add(SlotPair.Key, AssetId);
+		}
+
+
+		GameInstance->WriteSaveGame();
+		return true;
+	}
+
+	return false;
 }
 
+
+//¼ÓÔØ×Ê²ú
 bool ARPGPlayerControllerBase::LoadInventory()
 {
 
@@ -230,6 +279,12 @@ bool ARPGPlayerControllerBase::LoadInventory()
 		return false;
 	}
 
+	if (!GameInstance->OnSaveGameLoadedNative.IsBoundToObject(this))
+	{
+		//GameInstance->OnSaveGameLoadedNative.AddUObject(this, &ARPGPlayerControllerBase::HandledSaveGameLoaded);
+		GameInstance->OnSaveGameLoadedNative.AddUObject(this, &ARPGPlayerControllerBase::HandledSaveGameLoaded);
+	}
+		
 	for (const TPair<FPrimaryAssetType, int32>& Pair : GameInstance->ItemSlotsPerType)
 	{
 		for (int32 SlotNumber = 0; SlotNumber < Pair.Value; SlotNumber++)
@@ -238,7 +293,50 @@ bool ARPGPlayerControllerBase::LoadInventory()
 		}
 	}
 
-	return true;
+	URPGSaveGame* CurrentSaveGame = GameInstance->GetCurrentSaveGame();
+	URPGAssetManager& AssetManager = URPGAssetManager::Get();
+
+	if (CurrentSaveGame)
+	{
+		bool bFoundAnySlots = false;
+
+		for (const TPair<FPrimaryAssetId, FRPGItemData>& ItemPair : CurrentSaveGame->InventoryData)
+		{
+			URPGItem* LoadedItem = AssetManager.ForceLoadItem(ItemPair.Key);
+
+			if (LoadedItem != nullptr)
+			{
+				InventoryData.Add(LoadedItem, ItemPair.Value);
+			}
+		}
+
+		for (const TPair<FRPGItemSlot, FPrimaryAssetId>& SlotPair: CurrentSaveGame->SlottedItems)
+		{
+			if (SlotPair.Value.IsValid())
+			{
+				URPGItem* LoadedItem = AssetManager.ForceLoadItem(SlotPair.Value);
+
+				if (GameInstance->IsValidItemSlot(SlotPair.Key) && LoadedItem)
+				{
+					SlottedItems.Add(SlotPair.Key, LoadedItem);
+					bFoundAnySlots = true;
+				}
+			}
+		}
+
+		if (!bFoundAnySlots) {
+			FillEmptySlots();
+		}
+
+
+		NotifyInventoryLoaded();
+
+		return true;
+	}
+
+	NotifyInventoryLoaded();
+
+	return false;
 
 }
 
@@ -293,7 +391,7 @@ void ARPGPlayerControllerBase::NotifyInventoryLoaded()
 	OnInventoryLoaded.Broadcast();
 }
 
-void ARPGPlayerControllerBase::HandledSaveSameLoaded()
+void ARPGPlayerControllerBase::HandledSaveGameLoaded(URPGSaveGame* NewSaveGame)
 {
 	LoadInventory();
 }

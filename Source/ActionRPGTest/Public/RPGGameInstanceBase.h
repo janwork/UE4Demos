@@ -40,7 +40,6 @@ public:
 
 	FOnSaveGameLoadedNative OnSaveGameLoadedNative;
 
-
 	UFUNCTION(BlueprintCallable, Category = Inventory)
 		void AddDefaultInventory(URPGSaveGame* SaveGame, bool  bRmoveExtra = false);
 

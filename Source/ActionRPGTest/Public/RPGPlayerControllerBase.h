@@ -118,15 +118,12 @@ protected:
 
 	bool FillEmptySlotWithItem(URPGItem* NewItem);
 
-
 	void NotifyInventoryItemChanged(bool bAdded, URPGItem* Item);
 
 	void NotifySlottedItemChanged(FRPGItemSlot ItemSlot, URPGItem* Item);
 
 	void NotifyInventoryLoaded();
 
-	void HandledSaveSameLoaded();
-
-	
+	void HandledSaveGameLoaded(URPGSaveGame* NewSaveGame);
 
 };
