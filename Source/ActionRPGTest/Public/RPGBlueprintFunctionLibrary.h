@@ -35,10 +35,10 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Project")
 		static FString GetProjectVersion();
 
-	//UFUNCTION(BlueprintCallable, Category = Loading)
-	//	static void PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime);
+	UFUNCTION(BlueprintCallable, Category = Loading)
+		static void PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime);
 
 
-	//UFUNCTION(BlueprintCallable, Category = Loading)
-	//	static void StopLoadingScreen();
+	UFUNCTION(BlueprintCallable, Category = Loading)
+		static void StopLoadingScreen();
 };

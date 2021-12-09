@@ -2,7 +2,7 @@
 
 
 #include "RPGBlueprintFunctionLibrary.h"
-//#include "../ActionRPGLoadingScreen/Public/ActionRPGLoadingScreen.h"
+#include "ActionRPGLoadingScreen/Public/ActionRPGLoadingScreen.h"
 
 URPGBlueprintFunctionLibrary::URPGBlueprintFunctionLibrary(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer) {
@@ -57,15 +57,15 @@ FString URPGBlueprintFunctionLibrary::GetProjectVersion()
 	return ProjectVersion;
 }
 
-//void URPGBlueprintFunctionLibrary::PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime)
-//{
-//	IActionRPGLoadingScreenModule& LoadingScreenModule = IActionRPGLoadingScreenModule::Get();
-//	LoadingScreenModule.StartInGameLoadingScreen(bPlayUntilStopped, PlayTime);
-//
-//}
-//
-//void URPGBlueprintFunctionLibrary::StopLoadingScreen()
-//{
-//	IActionRPGLoadingScreenModule& LoadingScreenModule = IActionRPGLoadingScreenModule::Get();
-//	LoadingScreenModule.StopInGameLoadingScreen();
-//}
+void URPGBlueprintFunctionLibrary::PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime)
+{
+	IActionRPGLoadingScreenModule& LoadingScreenModule = IActionRPGLoadingScreenModule::Get();
+	LoadingScreenModule.StartInGameLoadingScreen(bPlayUntilStopped, PlayTime);
+
+}
+
+void URPGBlueprintFunctionLibrary::StopLoadingScreen()
+{
+	IActionRPGLoadingScreenModule& LoadingScreenModule = IActionRPGLoadingScreenModule::Get();
+	LoadingScreenModule.StopInGameLoadingScreen();
+}
