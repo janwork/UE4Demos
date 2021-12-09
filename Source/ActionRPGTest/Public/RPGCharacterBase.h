@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "RPGTypes.h"
 #include "AbilitySystemInterface.h"
+#include "RPGInventoryInterface.h"
+#include "UObject/ScriptInterface.h"
 #include "Abilities/RPGAbilitySystemComponent.h"
 #include "Abilities/RPGAttributeSet.h"
 #include "RPGCharacterBase.generated.h"
@@ -22,26 +24,16 @@ public:
 	// Sets default values for this character's properties
 	ARPGCharacterBase();
 
-protected:
+public:
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	//virtual void BeginPlay() override;
 
 	virtual void PossessedBy(AController* NewController) override;
-
 	virtual void UnPossessed() override;
-
 	virtual void OnRep_Controller() override;
-
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
+	UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 	UFUNCTION(BlueprintCallable)
 		virtual float GetHealth() const;
@@ -70,20 +62,14 @@ public:
 	UFUNCTION(BlueprintCallable)
 		virtual bool SetCharacterLevel(int32 NewLevel);
 
-	void AddStartupGameplayAbilities(); //应用 gameplayAbilities and Effects;
-
-	void RemoveStartupGameplayAbilities(); // 移除 gameplayAbilities and Effects
-
 	UFUNCTION(BlueprintCallable, Category = "Abilities")
 		bool ActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, bool bAllowRemoteActivation = true);
 
 	UFUNCTION(BlueprintCallable, Category = "Abilities")
 		void GetActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, TArray<URPGGameplayAbility*>& ActiveAbilities);
 
-
-
 	// 是否激活的技能
-	UFUNCTION(BlueprintCallable,  Category = "Abilities")
+	UFUNCTION(BlueprintCallable, Category = "Abilities")
 		bool ActivateAbilitiesWithTags(FGameplayTagContainer AbilityTags, bool bAllowRemoteActivation = true);
 
 	UFUNCTION(BlueprintCallable, Category = "Abilities")
@@ -92,7 +78,21 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Abilities")
 		bool GetCooldownRemainingForTag(FGameplayTagContainer CooldownTags, float& TimeRemaining, float& CooldownDuration);
 
-public:
+protected:
+	// Called every frame
+
+	UPROPERTY(EditAnywhere, Replicated, Category = Abilities)
+		int32 CharacterLevel;
+	//virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
+		TArray<TSubclassOf<URPGGameplayAbility>> GameplayAbilities;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
+		TMap<FRPGItemSlot, TSubclassOf<URPGGameplayAbility>> DefaultSlottedAbilities;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
+		TArray<TSubclassOf<UGameplayEffect>> PassiveGameplayEffects;
 
 	UPROPERTY()
 		URPGAbilitySystemComponent* AbilitySystemComponent;
@@ -101,24 +101,33 @@ public:
 		URPGAttributeSet* AttributeSet;
 
 	UPROPERTY()
+		TScriptInterface<IRPGInventoryInterface> InventorySource;
+
+	UPROPERTY()
 		int32 bAbilitiesInitialized;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Inventory)
 		TMap<FRPGItemSlot, FGameplayAbilitySpecHandle> SlottedAbilities;
 
-	UPROPERTY(EditAnywhere, Replicated, Category = Abilities)
-		int32 CharacterLevel;
+	FDelegateHandle InventoryUpdateHandle;
+	FDelegateHandle InventoryLoadedHandle;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
-		TArray<TSubclassOf<URPGGameplayAbility>> GameplayAbilities;
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnMoveSpeedChanged(float DeltaValue, const struct FGameplayTagContainer& EventTags);
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
-		TArray<TSubclassOf<UGameplayEffect>> PassiveGameplayEffects;
+	void OnItemSlotChanged(FRPGItemSlot ItemSlot, URPGItem* Item);
+	void RefreshSlottedGameplayAbilities();
 
+	void AddStartupGameplayAbilities(); //应用 gameplayAbilities and Effects;
 
+	void RemoveStartupGameplayAbilities(); // 移除 gameplayAbilities and Effects
 
+	void AddSlottedGameplayAbilities();
 
+	void FillSlottedGameplayAbilities(TMap<FRPGItemSlot, FGameplayAbilitySpec>& SlottedAbilitySpecs);
 
+	void RemoveSlottedGameplayAbilities(bool bRemoveAll);
 
+	friend URPGAttributeSet;
 
 };

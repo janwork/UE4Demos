@@ -2,6 +2,8 @@
 
 
 #include "RPGCharacterBase.h"
+#include "Item/RPGItem.h"
+#include "AbilitySystemGlobals.h"
 #include "Abilities/RPGGameplayAbility.h"
 
 // Sets default values
@@ -16,36 +18,132 @@ ARPGCharacterBase::ARPGCharacterBase()
 	bAbilitiesInitialized = false;
 }
 
-// Called when the game starts or when spawned
-void ARPGCharacterBase::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void ARPGCharacterBase::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
-// Called to bind functionality to input
-void ARPGCharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
 
 UAbilitySystemComponent* ARPGCharacterBase::GetAbilitySystemComponent() const
 {
 	return AbilitySystemComponent;
 }
 
+void ARPGCharacterBase::AddStartupGameplayAbilities()
+{
+	check(AbilitySystemComponent);
+
+	if (GetLocalRole() == ROLE_Authority && !bAbilitiesInitialized) {
+
+
+		for (TSubclassOf<URPGGameplayAbility>& StartupAbility : GameplayAbilities)
+		{
+			AbilitySystemComponent->GiveAbility(FGameplayAbilitySpec(StartupAbility, GetCharacterLevel(), INDEX_NONE, this));
+		}
+
+		for (TSubclassOf<UGameplayEffect>& GameplayEffect : PassiveGameplayEffects)
+		{
+			FGameplayEffectContextHandle EffectContext = AbilitySystemComponent->MakeEffectContext();
+			EffectContext.AddSourceObject(this);
+
+			FGameplayEffectSpecHandle NewHandle = AbilitySystemComponent->MakeOutgoingSpec(GameplayEffect, GetCharacterLevel(), EffectContext);
+
+			if (NewHandle.IsValid())
+			{
+				FActiveGameplayEffectHandle  ActiveGEHandle = AbilitySystemComponent->ApplyGameplayEffectSpecToTarget(*NewHandle.Data.Get(), AbilitySystemComponent);
+			}
+
+
+
+		}
+
+
+		AddSlottedGameplayAbilities();
+		bAbilitiesInitialized = true;
+
+	}
+}
+
+void ARPGCharacterBase::RemoveStartupGameplayAbilities()
+{
+
+}
+
+void ARPGCharacterBase::OnItemSlotChanged(FRPGItemSlot ItemSlot, URPGItem* Item)
+{
+	RefreshSlottedGameplayAbilities();
+}
+
+void ARPGCharacterBase::RefreshSlottedGameplayAbilities()
+{
+	if (bAbilitiesInitialized)
+	{
+		RemoveSlottedGameplayAbilities(false);
+		AddSlottedGameplayAbilities();
+	}
+}
+
+void ARPGCharacterBase::RemoveSlottedGameplayAbilities(bool bRemoveAll)
+{
+
+}
+
+void ARPGCharacterBase::FillSlottedGameplayAbilities(TMap<FRPGItemSlot, FGameplayAbilitySpec>& SlottedAbilitySpecs)
+{
+	for (const TPair<FRPGItemSlot, TSubclassOf<URPGGameplayAbility>>& DefaultPair : DefaultSlottedAbilities)
+	{
+		if (DefaultPair.Value.Get())
+		{
+			SlottedAbilitySpecs.Add(DefaultPair.Key, FGameplayAbilitySpec(DefaultPair.Value, GetCharacterLevel(), INDEX_NONE, this));
+		}
+	}
+
+	if (InventorySource)
+	{
+		const TMap<FRPGItemSlot, URPGItem*>& SlottedItemMap = InventorySource->GetSlottedItemMap();
+
+		for (const TPair<FRPGItemSlot, URPGItem*>& ItemPair : SlottedItemMap)
+		{
+			URPGItem* SlottedItem = ItemPair.Value;
+
+			int32 AbilityLevel = GetCharacterLevel();
+
+			if (SlottedItem && SlottedItem->ItemType.GetName() == FName(TEXT("Weapon")))
+			{
+				AbilityLevel = SlottedItem->AbilityLevel;
+			}
+
+			if (SlottedItem && SlottedItem->GrantedAbility)
+			{
+				SlottedAbilitySpecs.Add(ItemPair.Key, FGameplayAbilitySpec(SlottedItem->GrantedAbility, AbilityLevel, INDEX_NONE, SlottedItem));
+			}
+		}
+	}
+}
+
+void ARPGCharacterBase::AddSlottedGameplayAbilities()
+{
+	TMap<FRPGItemSlot, FGameplayAbilitySpec> SlottedAbilitySpecs;
+
+	FillSlottedGameplayAbilities(SlottedAbilitySpecs);
+
+	for (const TPair<FRPGItemSlot, FGameplayAbilitySpec>& SpecPair : SlottedAbilitySpecs)
+	{
+		FGameplayAbilitySpecHandle& SpecHandle = SlottedAbilities.FindOrAdd(SpecPair.Key);
+
+		if (!SpecHandle.IsValid())
+		{
+			SpecHandle = AbilitySystemComponent->GiveAbility(SpecPair.Value);
+		}
+	}
+}
 
 void ARPGCharacterBase::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
+
+	InventorySource = NewController;
+
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->InitAbilityActorInfo(this, this);
+		AddStartupGameplayAbilities();
+	}
 }
 
 void ARPGCharacterBase::UnPossessed()
@@ -120,44 +218,6 @@ bool ARPGCharacterBase::SetCharacterLevel(int32 NewLevel)
 	return false;
 }
 
-void ARPGCharacterBase::AddStartupGameplayAbilities()
-{
-	check(AbilitySystemComponent);
-
-	if (GetLocalRole() == ROLE_Authority && !bAbilitiesInitialized) {
-		
-
-		for (TSubclassOf<URPGGameplayAbility>& StartupAbility : GameplayAbilities)
-		{
-			AbilitySystemComponent->GiveAbility(FGameplayAbilitySpec(StartupAbility, GetCharacterLevel(), INDEX_NONE, this));
-		}
-
-		for (TSubclassOf<UGameplayEffect>& GameplayEffect : PassiveGameplayEffects)
-		{
-			FGameplayEffectContextHandle EffectContext = AbilitySystemComponent->MakeEffectContext();
-			EffectContext.AddSourceObject(this);
-
-			FGameplayEffectSpecHandle NewHandle = AbilitySystemComponent->MakeOutgoingSpec(GameplayEffect, GetCharacterLevel(), EffectContext);
-
-			if (NewHandle.IsValid())
-			{
-				FActiveGameplayEffectHandle  ActiveGEHandle = AbilitySystemComponent->ApplyGameplayEffectSpecToTarget(*NewHandle.Data.Get(), AbilitySystemComponent);
-			}
-
-
-
-		}
-
-		bAbilitiesInitialized = true;
-
-	}
-}
-
-void ARPGCharacterBase::RemoveStartupGameplayAbilities()
-{
-
-}
-
 bool ARPGCharacterBase::ActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, bool bAllowRemoteActivation /*= true*/)
 {
 	FGameplayAbilitySpecHandle* FoundHandle = SlottedAbilities.Find(ItemSlot);
@@ -167,12 +227,12 @@ bool ARPGCharacterBase::ActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, boo
 		return AbilitySystemComponent->TryActivateAbility(*FoundHandle, bAllowRemoteActivation);
 	}
 
-
 	return false;
 }
 
 void ARPGCharacterBase::GetActivateAbilitiesWithItemSlot(FRPGItemSlot ItemSlot, TArray<URPGGameplayAbility*>& ActiveAbilities)
 {
+
 	FGameplayAbilitySpecHandle* FoundHandle = SlottedAbilities.Find(ItemSlot);
 
 
