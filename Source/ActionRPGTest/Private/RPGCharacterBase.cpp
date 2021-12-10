@@ -30,7 +30,6 @@ void ARPGCharacterBase::AddStartupGameplayAbilities()
 
 	if (GetLocalRole() == ROLE_Authority && !bAbilitiesInitialized) {
 
-
 		for (TSubclassOf<URPGGameplayAbility>& StartupAbility : GameplayAbilities)
 		{
 			AbilitySystemComponent->GiveAbility(FGameplayAbilitySpec(StartupAbility, GetCharacterLevel(), INDEX_NONE, this));
@@ -48,12 +47,10 @@ void ARPGCharacterBase::AddStartupGameplayAbilities()
 				FActiveGameplayEffectHandle  ActiveGEHandle = AbilitySystemComponent->ApplyGameplayEffectSpecToTarget(*NewHandle.Data.Get(), AbilitySystemComponent);
 			}
 
-
-
 		}
 
-
 		AddSlottedGameplayAbilities();
+
 		bAbilitiesInitialized = true;
 
 	}
@@ -61,6 +58,34 @@ void ARPGCharacterBase::AddStartupGameplayAbilities()
 
 void ARPGCharacterBase::RemoveStartupGameplayAbilities()
 {
+	check(AbilitySystemComponent);
+
+	if (GetLocalRole() == ROLE_Authority && bAbilitiesInitialized) {
+
+		TArray<FGameplayAbilitySpecHandle> AbilitiesToRemove;
+		for (const FGameplayAbilitySpec& Spec : AbilitySystemComponent->GetActivatableAbilities())
+		{
+			if ((Spec.SourceObject == this) && GameplayAbilities.Contains(Spec.Ability->GetClass()))
+			{
+				AbilitiesToRemove.Add(Spec.Handle);
+			}
+		}
+
+		for (int32 i = 0; i < AbilitiesToRemove.Num(); i++)
+		{
+			AbilitySystemComponent->ClearAbility(AbilitiesToRemove[i]);
+		}
+
+		FGameplayEffectQuery Query;
+		Query.EffectSource = this;
+
+		AbilitySystemComponent->RemoveActiveEffects(Query);
+
+		RemoveSlottedGameplayAbilities(true);
+
+		bAbilitiesInitialized = false;
+
+	}
 
 }
 
@@ -76,11 +101,6 @@ void ARPGCharacterBase::RefreshSlottedGameplayAbilities()
 		RemoveSlottedGameplayAbilities(false);
 		AddSlottedGameplayAbilities();
 	}
-}
-
-void ARPGCharacterBase::RemoveSlottedGameplayAbilities(bool bRemoveAll)
-{
-
 }
 
 void ARPGCharacterBase::FillSlottedGameplayAbilities(TMap<FRPGItemSlot, FGameplayAbilitySpec>& SlottedAbilitySpecs)
@@ -133,11 +153,53 @@ void ARPGCharacterBase::AddSlottedGameplayAbilities()
 	}
 }
 
+void ARPGCharacterBase::RemoveSlottedGameplayAbilities(bool bRemoveAll)
+{
+	TMap<FRPGItemSlot, FGameplayAbilitySpec> SlottedAbilitySpecs;
+
+	if (!bRemoveAll)
+	{
+		FillSlottedGameplayAbilities(SlottedAbilitySpecs);
+	}
+
+	for (TPair<FRPGItemSlot, FGameplayAbilitySpecHandle>& ExistingPair : SlottedAbilities)
+	{
+		FGameplayAbilitySpec* FoundSpec = SlottedAbilitySpecs.Find(ExistingPair.Key);
+		bool bShouldRemove = bRemoveAll || !FoundSpec;
+
+		if (!bShouldRemove)
+		{
+			FGameplayAbilitySpec* DesiredSpec = SlottedAbilitySpecs.Find(ExistingPair.Key);
+
+			if (!DesiredSpec || DesiredSpec->Ability != FoundSpec->Ability || DesiredSpec->SourceObject != FoundSpec->SourceObject)
+			{
+				bShouldRemove = true;
+			}
+		}
+
+		if (bShouldRemove) 
+		{
+			if (FoundSpec)
+			{
+				AbilitySystemComponent->ClearAbility(ExistingPair.Value);
+			}
+
+			ExistingPair.Value = FGameplayAbilitySpecHandle();
+		}
+	}
+}
+
 void ARPGCharacterBase::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
 
 	InventorySource = NewController;
+
+	if (InventorySource)
+	{
+		InventoryUpdateHandle = InventorySource->GetSlottedItemChangedDelegate().AddUObject(this, &ARPGCharacterBase::OnItemSlotChanged);
+		InventoryLoadedHandle = InventorySource->GetInventoryLoadedDelegate().AddUObject(this, &ARPGCharacterBase::RefreshSlottedGameplayAbilities);
+	}
 
 	if (AbilitySystemComponent)
 	{
@@ -148,12 +210,26 @@ void ARPGCharacterBase::PossessedBy(AController* NewController)
 
 void ARPGCharacterBase::UnPossessed()
 {
-	Super::UnPossessed();
+	if (InventorySource && InventoryUpdateHandle.IsValid())
+	{
+		InventorySource->GetSlottedItemChangedDelegate().Remove(InventoryUpdateHandle);
+		InventoryUpdateHandle.Reset();
+
+		InventorySource->GetInventoryLoadedDelegate().Remove(InventoryLoadedHandle);
+		InventoryLoadedHandle.Reset();
+	}
+
+	InventorySource = nullptr;
 }
 
 void ARPGCharacterBase::OnRep_Controller()
 {
 	Super::OnRep_Controller();
+
+	/*if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->RefreshAbilityActorInfo();
+	}*/
 }
 
 void ARPGCharacterBase::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
@@ -211,7 +287,9 @@ bool ARPGCharacterBase::SetCharacterLevel(int32 NewLevel)
 {
 	if (CharacterLevel != NewLevel && NewLevel > 0) {
 
+		RemoveStartupGameplayAbilities();
 		CharacterLevel = NewLevel;
+		AddStartupGameplayAbilities();
 		return true;
 	}
 
