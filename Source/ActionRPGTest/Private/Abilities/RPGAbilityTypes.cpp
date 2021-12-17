@@ -16,5 +16,15 @@ bool FRPGGameplayEffectContainerSpec::HasVaildTargets() const
 
 void FRPGGameplayEffectContainerSpec::AddTargets(const TArray<FHitResult>& HitResults, const TArray<AActor*>& TargetActors)
 {
+	for (const FHitResult& HitResults : HitResults) {
+		FGameplayAbilityTargetData_SingleTargetHit* NewData = new FGameplayAbilityTargetData_SingleTargetHit(HitResults);
+		TargetData.Add(NewData);
+	}
 
+	if (TargetActors.Num() > 0)
+	{
+		FGameplayAbilityTargetData_ActorArray* NewData = new FGameplayAbilityTargetData_ActorArray();
+		NewData->TargetActorArray.Append(TargetActors);
+		TargetData.Add(NewData);
+	}
 }

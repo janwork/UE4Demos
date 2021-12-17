@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Abilities/GameplayAbility.h"
 #include "Abilities/RPGAbilityTypes.h"
+#include "../ActionRPGTest.h"
 #include "RPGGameplayAbility.generated.h"
 
 /**

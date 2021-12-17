@@ -88,7 +88,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
 		TArray<TSubclassOf<URPGGameplayAbility>> GameplayAbilities;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
 		TMap<FRPGItemSlot, TSubclassOf<URPGGameplayAbility>> DefaultSlottedAbilities;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
@@ -106,7 +106,7 @@ protected:
 	UPROPERTY()
 		int32 bAbilitiesInitialized;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Inventory)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Inventory)
 		TMap<FRPGItemSlot, FGameplayAbilitySpecHandle> SlottedAbilities;
 
 	FDelegateHandle InventoryUpdateHandle;

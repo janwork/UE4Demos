@@ -16,15 +16,12 @@ void URPGAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 	DOREPLIFETIME(URPGAttributeSet, Health);
-
-
 	DOREPLIFETIME(URPGAttributeSet, MaxHealth);
 	DOREPLIFETIME(URPGAttributeSet, Mana);
 	DOREPLIFETIME(URPGAttributeSet, MaxMana);
 	DOREPLIFETIME(URPGAttributeSet, AttackPower);
 	DOREPLIFETIME(URPGAttributeSet, DefensePower);
 	DOREPLIFETIME(URPGAttributeSet, MoveSpeed);
-	//DOREPLIFETIME(URPGAttributeSet, Damage);
 }
 
 // 属性改变通知
@@ -36,7 +33,6 @@ void URPGAttributeSet::OnRep_Health(const FGameplayAttributeData& oldValue)
 void URPGAttributeSet::OnRep_MaxHealth(const FGameplayAttributeData& oldValue)
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(URPGAttributeSet, MaxHealth, oldValue);
-
 }
 
 void URPGAttributeSet::OnRep_Mana(const FGameplayAttributeData& oldValue)

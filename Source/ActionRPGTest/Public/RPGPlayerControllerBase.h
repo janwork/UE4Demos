@@ -27,7 +27,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Inventory)
 		TMap<URPGItem*, FRPGItemData> InventoryData;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Inventory)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Inventory)
 		TMap<FRPGItemSlot, URPGItem*> SlottedItems;
 
 	UPROPERTY(BlueprintAssignable, Category = Inventory)

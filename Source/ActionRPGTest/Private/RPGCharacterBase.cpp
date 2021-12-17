@@ -16,6 +16,7 @@ ARPGCharacterBase::ARPGCharacterBase()
 
 	CharacterLevel = 1;
 	bAbilitiesInitialized = false;
+
 }
 
 
@@ -50,6 +51,7 @@ void ARPGCharacterBase::AddStartupGameplayAbilities()
 		}
 
 		AddSlottedGameplayAbilities();
+
 
 		bAbilitiesInitialized = true;
 
@@ -151,6 +153,7 @@ void ARPGCharacterBase::AddSlottedGameplayAbilities()
 			SpecHandle = AbilitySystemComponent->GiveAbility(SpecPair.Value);
 		}
 	}
+
 }
 
 void ARPGCharacterBase::RemoveSlottedGameplayAbilities(bool bRemoveAll)
@@ -226,10 +229,10 @@ void ARPGCharacterBase::OnRep_Controller()
 {
 	Super::OnRep_Controller();
 
-	/*if (AbilitySystemComponent)
+	if (AbilitySystemComponent)
 	{
 		AbilitySystemComponent->RefreshAbilityActorInfo();
-	}*/
+	}
 }
 
 void ARPGCharacterBase::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
@@ -287,7 +290,7 @@ bool ARPGCharacterBase::SetCharacterLevel(int32 NewLevel)
 {
 	if (CharacterLevel != NewLevel && NewLevel > 0) {
 
-		RemoveStartupGameplayAbilities();
+		//RemoveStartupGameplayAbilities();
 		CharacterLevel = NewLevel;
 		AddStartupGameplayAbilities();
 		return true;
