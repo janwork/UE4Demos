@@ -14,6 +14,99 @@ URPGAbilityTask_PMAWFE::URPGAbilityTask_PMAWFE(const FObjectInitializer& ObjectI
 	bStopWhenAbilityEnds = true;
 }
 
+URPGAbilitySystemComponent* URPGAbilityTask_PMAWFE::GetTargetASC()
+{
+	return Cast<URPGAbilitySystemComponent>(AbilitySystemComponent);
+}
+
+void URPGAbilityTask_PMAWFE::OnMontageBlendingOut(UAnimMontage* Montage, bool bInterrupted)
+{
+	if (Ability && Ability->GetCurrentMontage() == MontageToPlay) 
+	{
+		if (Montage == MontageToPlay)
+		{
+			AbilitySystemComponent->ClearAnimatingAbility(Ability);
+
+			ACharacter* Character = Cast<ACharacter>(GetAvatarActor());
+			if (Character && (Character->GetLocalRole() == ROLE_Authority ||
+							(Character->GetLocalRole() == ROLE_AutonomousProxy && Ability->GetNetExecutionPolicy() == EGameplayAbilityNetExecutionPolicy::LocalPredicted)))
+			{
+				Character->SetAnimRootMotionTranslationScale(1.f);
+			}
+		}
+	}
+
+	if (bInterrupted) {
+		if (ShouldBroadcastAbilityTaskDelegates())
+		{
+			OnInterrupted.Broadcast(FGameplayTag(), FGameplayEventData());
+		}
+	}
+	else
+	{
+		if (ShouldBroadcastAbilityTaskDelegates())
+		{
+			GetDebugString();
+			OnBlendOut.Broadcast(FGameplayTag(), FGameplayEventData());
+		}
+	}
+}
+
+void URPGAbilityTask_PMAWFE::OnAbilityCancelled()
+{
+	if (StopPlayingMontage())
+	{
+		if (ShouldBroadcastAbilityTaskDelegates())
+		{
+			GetDebugString();
+			OnCancelled.Broadcast(FGameplayTag(), FGameplayEventData());
+		}
+	}
+}
+
+void URPGAbilityTask_PMAWFE::OnMontageEnded(UAnimMontage* Montage, bool bInterrupted)
+{
+	if (!bInterrupted)
+	{
+		if (ShouldBroadcastAbilityTaskDelegates())
+		{
+			GetDebugString();
+			OnCompleted.Broadcast(FGameplayTag(), FGameplayEventData());
+		}
+	}
+
+	EndTask();
+}
+
+void URPGAbilityTask_PMAWFE::OnGameplayEvent(FGameplayTag EventTag, const FGameplayEventData* Payload)
+{
+	if (ShouldBroadcastAbilityTaskDelegates())
+	{
+		FGameplayEventData TempData = *Payload;
+		TempData.EventTag = EventTag;
+
+		GetDebugString();
+		EventReceived.Broadcast(EventTag, TempData);
+	}
+}
+
+URPGAbilityTask_PMAWFE* URPGAbilityTask_PMAWFE::PlayMontageAndWaitForEvent(UGameplayAbility* OwningAbility, FName TaskInstanceName, UAnimMontage* MontageToPlay, FGameplayTagContainer EventTags, float Rate /*= 1.0f*/, FName StartSection /*= NAME_None*/, bool bStopWhenAbilityEnds /*= true*/, float AnimRootMotionTranslationScale /*= 1.f*/)
+{
+	UAbilitySystemGlobals::NonShipping_ApplyGlobalAbilityScaler_Rate(Rate);
+
+	URPGAbilityTask_PMAWFE* MyObj = NewAbilityTask<URPGAbilityTask_PMAWFE>(OwningAbility, TaskInstanceName);
+	MyObj->MontageToPlay = MontageToPlay;
+	MyObj->EventTags = EventTags;
+	MyObj->Rate = Rate;
+	MyObj->StartSection = StartSection;
+	MyObj->AnimRootMotionTranslationScale = AnimRootMotionTranslationScale;
+	MyObj->bStopWhenAbilityEnds = bStopWhenAbilityEnds;
+
+
+	return MyObj;
+}
+
+
 void URPGAbilityTask_PMAWFE::Activate()
 {
 	if (Ability == nullptr)
@@ -52,7 +145,7 @@ void URPGAbilityTask_PMAWFE::Activate()
 				ACharacter* Character = Cast<ACharacter>(GetAvatarActor());
 
 				if (Character && (Character->GetLocalRole() == ROLE_Authority ||
-					(Character->GetLocalRole() == ROLE_AutonomousProxy && Ability->GetNetExecutionPolicy() == EGameplayAbilityNetExecutionPolicy::LocalPredicted)))
+									(Character->GetLocalRole() == ROLE_AutonomousProxy && Ability->GetNetExecutionPolicy() == EGameplayAbilityNetExecutionPolicy::LocalPredicted)))
 				{
 					Character->SetAnimRootMotionTranslationScale(AnimRootMotionTranslationScale);
 				}
@@ -78,6 +171,8 @@ void URPGAbilityTask_PMAWFE::Activate()
 		}
 	}
 
+
+
 	SetWaitingOnAvatar();
 
 
@@ -90,23 +185,6 @@ void URPGAbilityTask_PMAWFE::ExternalCancel()
 	OnAbilityCancelled();
 
 	Super::ExternalCancel();
-}
-
-FString URPGAbilityTask_PMAWFE::GetDebugString() const
-{
-	UAnimMontage* PlayingMontage = nullptr;
-	if (Ability)
-	{
-		const FGameplayAbilityActorInfo* ActorInfo = Ability->GetCurrentActorInfo();
-		UAnimInstance* AnimInstance = ActorInfo->GetAnimInstance();
-
-		if (AnimInstance != nullptr)
-		{
-			PlayingMontage = AnimInstance->Montage_IsActive(MontageToPlay) ? MontageToPlay : AnimInstance->GetCurrentActiveMontage();
-		}
-	}
-
-	return FString::Printf(TEXT("PlayMontageAndWaitForEvent. MontageToPlay: %s  (Currently Playing): %s"), *GetNameSafe(MontageToPlay), *GetNameSafe(PlayingMontage));
 }
 
 void URPGAbilityTask_PMAWFE::OnDestroy(bool AbilityEnded)
@@ -130,21 +208,6 @@ void URPGAbilityTask_PMAWFE::OnDestroy(bool AbilityEnded)
 	Super::OnDestroy(AbilityEnded);
 }
 
-URPGAbilityTask_PMAWFE* URPGAbilityTask_PMAWFE::PlayMontageAndWaitForEvent(UGameplayAbility* OwningAbility, FName TaskInstanceName, UAnimMontage* MontageToPlay, FGameplayTagContainer EventTag, float Rate /*= 1.0f*/, FName StartSection /*= NAME_None*/, bool bStopWhenAbilityEnds /*= true*/, float AnimRootMotionTranslationScale /*= 1.f*/)
-{
-	UAbilitySystemGlobals::NonShipping_ApplyGlobalAbilityScaler_Rate(Rate);
-
-	URPGAbilityTask_PMAWFE* MyObj = NewAbilityTask<URPGAbilityTask_PMAWFE>(OwningAbility, TaskInstanceName);
-	MyObj->MontageToPlay = MontageToPlay;
-	MyObj->EventTags = EventTag;
-	MyObj->Rate = Rate;
-	MyObj->StartSection = StartSection;
-	MyObj->AnimRootMotionTranslationScale = AnimRootMotionTranslationScale;
-	MyObj->bStopWhenAbilityEnds = bStopWhenAbilityEnds;
-
-
-	return MyObj;
-}
 
 bool URPGAbilityTask_PMAWFE::StopPlayingMontage()
 {
@@ -182,73 +245,21 @@ bool URPGAbilityTask_PMAWFE::StopPlayingMontage()
 	return false;
 }
 
-URPGAbilitySystemComponent* URPGAbilityTask_PMAWFE::GetTargetASC()
-{
-	return Cast<URPGAbilitySystemComponent>(AbilitySystemComponent);
-}
 
-void URPGAbilityTask_PMAWFE::OnMontageBlendingOut(UAnimMontage* Montage, bool bInterrupted)
+
+FString URPGAbilityTask_PMAWFE::GetDebugString() const
 {
-	if (Ability && Ability->GetCurrentMontage() == MontageToPlay) 
+	UAnimMontage* PlayingMontage = nullptr;
+	if (Ability)
 	{
-		if (Montage == MontageToPlay)
-		{
-			AbilitySystemComponent->ClearAnimatingAbility(Ability);
+		const FGameplayAbilityActorInfo* ActorInfo = Ability->GetCurrentActorInfo();
+		UAnimInstance* AnimInstance = ActorInfo->GetAnimInstance();
 
-			ACharacter* Character = Cast<ACharacter>(GetAvatarActor());
-			if (Character && (Character->GetLocalRole() == ROLE_Authority ||
-				(Character->GetLocalRole() == ROLE_AutonomousProxy && Ability->GetNetExecutionPolicy() == EGameplayAbilityNetExecutionPolicy::LocalPredicted)))
-			{
-				Character->SetAnimRootMotionTranslationScale(1.f);
-			}
+		if (AnimInstance != nullptr)
+		{
+			PlayingMontage = AnimInstance->Montage_IsActive(MontageToPlay) ? MontageToPlay : AnimInstance->GetCurrentActiveMontage();
 		}
 	}
 
-	if (bInterrupted) {
-		if (ShouldBroadcastAbilityTaskDelegates())
-		{
-			OnInterrupted.Broadcast(FGameplayTag(), FGameplayEventData());
-		}
-	}
-	else
-	{
-		if (ShouldBroadcastAbilityTaskDelegates())
-		{
-			OnInterrupted.Broadcast(FGameplayTag(), FGameplayEventData());
-		}
-	}
-}
-
-void URPGAbilityTask_PMAWFE::OnAbilityCancelled()
-{
-	if (StopPlayingMontage())
-	{
-		if (ShouldBroadcastAbilityTaskDelegates())
-		{
-			OnInterrupted.Broadcast(FGameplayTag(), FGameplayEventData());
-		}
-	}
-}
-
-void URPGAbilityTask_PMAWFE::OnMontageEnded(UAnimMontage* Montage, bool bInterrupted)
-{
-	if (!bInterrupted)
-	{
-		if (ShouldBroadcastAbilityTaskDelegates())
-		{
-			OnInterrupted.Broadcast(FGameplayTag(), FGameplayEventData());
-		}
-	}
-
-	EndTask();
-}
-
-void URPGAbilityTask_PMAWFE::OnGameplayEvent(FGameplayTag EventTag, const FGameplayEventData* payload)
-{
-	if (ShouldBroadcastAbilityTaskDelegates())
-	{
-		FGameplayEventData TempData = *payload;
-		TempData.EventTag = EventTag;
-		EventReceived.Broadcast(EventTag, TempData);
-	}
+	return FString::Printf(TEXT("PlayMontageAndWaitForEvent. MontageToPlay: %s  (Currently Playing): %s"), *GetNameSafe(MontageToPlay), *GetNameSafe(PlayingMontage));
 }

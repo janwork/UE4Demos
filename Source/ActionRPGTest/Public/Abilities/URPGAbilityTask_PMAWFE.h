@@ -8,7 +8,8 @@
 #include "URPGAbilityTask_PMAWFE.generated.h"
 
 class URPGAbilitySystemComponent;
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FRPGPlayMontageAndWaitForEventDelegate, FGameplayTag, EventTag, FGameplayEventData, EventData);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FRPGPlayMontageAndWaitForEventDelegate1, FGameplayTag, EventTag, FGameplayEventData, EventData);
 
 
 /**
@@ -29,28 +30,26 @@ public:
 	virtual void OnDestroy(bool AbilityEnded) override;
 
 	UPROPERTY(BlueprintAssignable)
-		FRPGPlayMontageAndWaitForEventDelegate OnCompleted;
+		FRPGPlayMontageAndWaitForEventDelegate1 OnCompleted;
 
 	UPROPERTY(BlueprintAssignable)
-		FRPGPlayMontageAndWaitForEventDelegate OnBlendOut;
+		FRPGPlayMontageAndWaitForEventDelegate1 OnBlendOut;
 
 	UPROPERTY(BlueprintAssignable)
-		FRPGPlayMontageAndWaitForEventDelegate OnInterrupted;
+		FRPGPlayMontageAndWaitForEventDelegate1 OnInterrupted;
 
 	UPROPERTY(BlueprintAssignable)
-		FRPGPlayMontageAndWaitForEventDelegate OnCancelled;
+		FRPGPlayMontageAndWaitForEventDelegate1 OnCancelled;
 
 	UPROPERTY(BlueprintAssignable)
-		FRPGPlayMontageAndWaitForEventDelegate EventReceived;
-
-
+		FRPGPlayMontageAndWaitForEventDelegate1 EventReceived;
 
 	UFUNCTION(BlueprintCallable, Category = "Ability|Tasks", meta = (HidePin = "OwningAbility", DefaultToSelf = "OwningAbility", BlueprintInternalUseOnly = "TRUE"))
 		static URPGAbilityTask_PMAWFE* PlayMontageAndWaitForEvent(
 			UGameplayAbility* OwningAbility,
 			FName TaskInstanceName,
 			UAnimMontage* MontageToPlay,
-			FGameplayTagContainer EventTag,
+			FGameplayTagContainer EventTags,
 			float Rate = 1.0f,
 			FName StartSection = NAME_None,
 			bool bStopWhenAbilityEnds = true,
@@ -81,12 +80,9 @@ private:
 	URPGAbilitySystemComponent* GetTargetASC();
 
 	void OnMontageBlendingOut(UAnimMontage* Montage, bool bInterrupted);
-
 	void OnAbilityCancelled();
-
 	void OnMontageEnded(UAnimMontage* Montage, bool bInterrupted);
-
-	void OnGameplayEvent(FGameplayTag EventTag, const FGameplayEventData* payload);
+	void OnGameplayEvent(FGameplayTag EventTag, const FGameplayEventData* Payload);
 
 	FOnMontageBlendingOutStarted BlendingOutDelegate;
 	FOnMontageEnded MontageEndedDelegate;

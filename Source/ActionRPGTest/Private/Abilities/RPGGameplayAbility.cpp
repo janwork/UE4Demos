@@ -35,7 +35,7 @@ FRPGGameplayEffectContainerSpec URPGGameplayAbility::MakeEffectContainerFromCont
 
 		if (OverrideGameplayLevel == INDEX_NONE)
 		{
-			OverrideGameplayLevel = this->GetAbilityLevel();
+			OverrideGameplayLevel = OverrideGameplayLevel = this->GetAbilityLevel();
 		}
 
 		for (const TSubclassOf<UGameplayEffect>& EffectClass : Container.TargetGameplayEffectClasses)

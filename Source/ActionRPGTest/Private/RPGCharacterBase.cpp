@@ -290,7 +290,7 @@ bool ARPGCharacterBase::SetCharacterLevel(int32 NewLevel)
 {
 	if (CharacterLevel != NewLevel && NewLevel > 0) {
 
-		//RemoveStartupGameplayAbilities();
+		RemoveStartupGameplayAbilities();
 		CharacterLevel = NewLevel;
 		AddStartupGameplayAbilities();
 		return true;
