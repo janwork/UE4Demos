@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealMatch3",
+			"Path": "F:\\UEProject\\Three\\Source\\UnrealMatch3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealMatch3Editor",
+			"Path": "F:\\UEProject\\Three\\Source\\UnrealMatch3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
