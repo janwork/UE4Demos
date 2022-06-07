@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\UE4_Project\\PMTutorial\\Source\\PMTutorial\\PMTutorial.Build.cs",
+		"D:\\UE4_Project\\PMTutorial\\Plugins\\DemonPlugin\\Source\\DemonPlugin\\DemonPlugin.Build.cs",
+		"D:\\UE4_Project\\PMTutorial\\Source\\PMTutorial.Target.cs",
+		"D:\\UE4_Project\\PMTutorial\\Source\\PMTutorialEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

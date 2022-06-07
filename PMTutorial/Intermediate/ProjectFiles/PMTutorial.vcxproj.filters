@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PMTutorial.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4E9F366F-9812-4FA1-93D9-C31DA4DDB2C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PMTutorial.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PMTutorialEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CC28A77D-2413-4DBD-99F8-5DF701F85CF5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{DFC7307F-EAB6-42B1-8449-0A0A3335B94C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DemonPlugin">
+      <UniqueIdentifier>{1D0548BA-314E-4E0C-87F4-D10923EB314A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DemonPlugin\Source">
+      <UniqueIdentifier>{FE98C4F2-2DEF-4914-AB8A-7175833056DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DemonPlugin\Source\DemonPlugin">
+      <UniqueIdentifier>{52A05A53-C2F2-4A5D-86A9-54E97936C865}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DemonPlugin\Source\DemonPlugin\DemonPlugin.Build.cs">
+      <Filter>Plugins\DemonPlugin\Source\DemonPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\DemonPlugin\Source\DemonPlugin\Private">
+      <UniqueIdentifier>{246C9599-12E5-43F2-B27D-58281DF467BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DemonPlugin\Source\DemonPlugin\Private\DemonPlugin.cpp">
+      <Filter>Plugins\DemonPlugin\Source\DemonPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DemonPlugin\Source\DemonPlugin\Private\DemonPluginBPLibrary.cpp">
+      <Filter>Plugins\DemonPlugin\Source\DemonPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DemonPlugin\Source\DemonPlugin\Public">
+      <UniqueIdentifier>{D67162C8-8028-4EA5-8EC1-FD96D755C3F6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DemonPlugin\Source\DemonPlugin\Public\DemonPlugin.h">
+      <Filter>Plugins\DemonPlugin\Source\DemonPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DemonPlugin\Source\DemonPlugin\Public\DemonPluginBPLibrary.h">
+      <Filter>Plugins\DemonPlugin\Source\DemonPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DemonPlugin\DemonPlugin.uplugin">
+      <Filter>Plugins\DemonPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\DemonPlugin\Resources">
+      <UniqueIdentifier>{F327BBB8-7B65-47BC-8201-AC084753A7FD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DemonPlugin\Resources\Icon128.png">
+      <Filter>Plugins\DemonPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Source\PMTutorial">
+      <UniqueIdentifier>{025E354A-EAF5-4075-9117-7DCF8123A598}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PMTutorial\PMTutorial.Build.cs">
+      <Filter>Source\PMTutorial</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PMTutorial\PMTutorial.cpp">
+      <Filter>Source\PMTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PMTutorial\PMTutorial.h">
+      <Filter>Source\PMTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PMTutorial\PMTutorialGameModeBase.cpp">
+      <Filter>Source\PMTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PMTutorial\PMTutorialGameModeBase.h">
+      <Filter>Source\PMTutorial</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DemonPlugin.cpp.obj": [
+			"DemonPlugin.cpp.obj",
+			"DemonPluginBPLibrary.cpp.obj"
+		],
+		"Module.DemonPlugin.gen.cpp.obj": [
+			"DemonPlugin.init.gen.cpp.obj",
+			"DemonPluginBPLibrary.gen.cpp.obj"
+		]
+	}
+}
