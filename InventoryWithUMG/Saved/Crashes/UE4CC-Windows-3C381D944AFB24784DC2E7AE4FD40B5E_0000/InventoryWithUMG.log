@@ -1,0 +1,1558 @@
+﻿Log file open, 04/30/21 09:48:37
+LogInit: Display: Running engine for game: InventoryWithUMG
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.206348
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: F:/UE4/UE_4.25.3/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+[2021.04.30-01.48.38:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.30-01.48.38:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+[2021.04.30-01.48.38:083][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+[2021.04.30-01.48.38:088][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.30-01.48.38:088][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.30-01.48.38:089][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.30-01.48.38:089][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.30-01.48.38:089][  0]LogHAL: Display: Platform has ~ 16 GB [17112915968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.30-01.48.38:089][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.30-01.48.38:089][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.30-01.48.38:089][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.30-01.48.38:090][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.30-01.48.38:091][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/UEProject/InventoryWithUMG/Saved/Config/Windows/Engine.ini]
+[2021.04.30-01.48.38:091][  0]LogInit: Computer: DESKTOP-JA1LSD0
+[2021.04.30-01.48.38:091][  0]LogInit: User: jan
+[2021.04.30-01.48.38:091][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.30-01.48.38:091][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.30-01.48.38:092][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.30-01.48.38:092][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.30-01.48.38:092][  0]LogMemory: Process Physical Memory: 117.02 MB used, 117.02 MB peak
+[2021.04.30-01.48.38:092][  0]LogMemory: Process Virtual Memory: 96.02 MB used, 96.02 MB peak
+[2021.04.30-01.48.38:092][  0]LogMemory: Physical Memory: 8284.93 MB used,  8035.21 MB free, 16320.15 MB total
+[2021.04.30-01.48.38:092][  0]LogMemory: Virtual Memory: 5145.00 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.04.30-01.48.38:098][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.30-01.48.38:125][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.30-01.48.38:126][  0]LogInit: Using OS detected language (zh-CN).
+[2021.04.30-01.48.38:126][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.04.30-01.48.38:160][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2021.04.30-01.48.38:230][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2021.04.30-01.48.38:230][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2021.04.30-01.48.38:231][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.04.30-01.48.38:262][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.30-01.48.38:323][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.30-01.48.38:323][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.30-01.48.38:446][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.30-01.48.38:446][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.30-01.48.38:446][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.30-01.48.38:446][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.30-01.48.38:539][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.04.30-01.48.38:539][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.04.30-01.48.38:542][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.30-01.48.38:542][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.30-01.48.38:542][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.30-01.48.38:549][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.30-01.48.38:549][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.30-01.48.38:549][  0]LogWindows: EnumDisplayDevices:
+[2021.04.30-01.48.38:549][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.04.30-01.48.38:549][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.04.30-01.48.38:549][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.30-01.48.38:550][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.30-01.48.38:550][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.30-01.48.38:550][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.04.30-01.48.38:550][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.04.30-01.48.38:550][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.04.30-01.48.38:550][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.04.30-01.48.38:614][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.30-01.48.38:617][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2021.04.30-01.48.38:617][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.30-01.48.38:617][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.30-01.48.38:641][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2021.04.30-01.48.38:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.30-01.48.38:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.30-01.48.38:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.30-01.48.38:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.30-01.48.39:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.30-01.48.39:009][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.30-01.48.39:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.30-01.48.39:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.30-01.48.39:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.30-01.48.39:045][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.30-01.48.39:053][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.30-01.48.39:077][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.30-01.48.39:077][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.30-01.48.39:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.30-01.48.39:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.30-01.48.39:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.30-01.48.39:109][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.30-01.48.39:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.30-01.48.39:127][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.30-01.48.39:127][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.30-01.48.39:133][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.30-01.48.39:185][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../UEProject/InventoryWithUMG/Intermediate/Shaders/WorkingDirectory/11496/).
+[2021.04.30-01.48.39:185][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jan/AppData/Local/Temp/UnrealShaderWorkingDir/00E5AD6B49A8CB827D85EDBB40661598/'.
+[2021.04.30-01.48.39:185][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.30-01.48.39:185][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.30-01.48.39:185][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.30-01.48.39:889][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.30-01.48.39:950][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/jan/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.30-01.48.39:951][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jan/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.30-01.48.39:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UEProject/InventoryWithUMG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.30-01.48.39:951][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.30-01.48.39:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UEProject/InventoryWithUMG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.30-01.48.39:951][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.30-01.48.39:961][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.30-01.48.39:961][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.30-01.48.39:961][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.30-01.48.39:962][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.30-01.48.39:962][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.30-01.48.39:962][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.30-01.48.40:193][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.30-01.48.40:193][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.30-01.48.40:220][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.04.30-01.48.40:431][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.30-01.48.40:665][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.30-01.48.40:665][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.30-01.48.40:665][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.30-01.48.40:665][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.30-01.48.40:665][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.30-01.48.40:679][  0]LogNetVersion: InventoryWithUMG 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2965046039)
+[2021.04.30-01.48.41:582][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000122F1BF9C40), frame # 0
+[2021.04.30-01.48.41:582][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000122F1B51080), frame # 0
+[2021.04.30-01.48.41:582][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000122F1B5B200), frame # 0
+[2021.04.30-01.48.41:738][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.147778 seconds
+[2021.04.30-01.48.41:743][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.30-01.48.41:743][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.30-01.48.41:743][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.30-01.48.42:202][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.30-01.48.42:206][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.30-01.48.42:297][  0]SourceControl: 源码管理已禁用
+[2021.04.30-01.48.42:297][  0]SourceControl: 源码管理已禁用
+[2021.04.30-01.48.42:300][  0]SourceControl: 源码管理已禁用
+[2021.04.30-01.48.42:302][  0]SourceControl: 源码管理已禁用
+[2021.04.30-01.48.42:307][  0]SourceControl: 源码管理已禁用
+[2021.04.30-01.48.42:728][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.30-01.48.42:745][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.30-01.48.42:745][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.30-01.48.43:806][  0]LogOcInput: OculusInput pre-init called
+[2021.04.30-01.48.43:852][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.30-01.48.43:852][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.30-01.48.44:046][  0]LogEngine: Initializing Engine...
+[2021.04.30-01.48.44:048][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.30-01.48.44:048][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.30-01.48.44:049][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.30-01.48.44:376][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.30-01.48.44:383][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.30-01.48.44:383][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000122F7E9FC00), frame # 0
+[2021.04.30-01.48.44:383][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000122F7F61440), frame # 0
+[2021.04.30-01.48.44:406][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-01.48.44:406][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-01.48.44:406][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-01.48.44:406][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-01.48.44:406][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-01.48.44:406][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-01.48.44:406][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-01.48.44:406][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-01.48.44:407][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-01.48.44:407][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-01.48.44:418][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-01.48.44:418][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-01.48.44:448][  0]LogAudioMixer: Display: Using Audio Device Realtek Digital Output (Realtek High Definition Audio)
+[2021.04.30-01.48.44:452][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-01.48.44:454][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-01.48.44:454][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-01.48.44:455][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-01.48.44:458][  0]LogInit: FAudioDevice initialized.
+[2021.04.30-01.48.44:458][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.30-01.48.44:531][  0]LogDerivedDataCache: Saved boot cache 0.07s 94MB C:/Users/jan/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.30-01.48.44:535][  0]LogInit: Texture streaming: Enabled
+[2021.04.30-01.48.44:548][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.30-01.48.44:548][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.30-01.48.44:550][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.30-01.48.44:586][  0]LogInit: Transaction tracking system initialized
+[2021.04.30-01.48.44:604][  0]BlueprintLog: New page: 编辑器加载
+[2021.04.30-01.48.44:664][  0]LocalizationService: 本地化服务已禁用
+[2021.04.30-01.48.44:883][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.30-01.48.44:883][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.30-01.48.45:382][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/InventoryWithUMG/Content/' took 0.03s
+[2021.04.30-01.48.45:634][  0]SourceControl: 源码管理已禁用
+[2021.04.30-01.48.45:634][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.302
+[2021.04.30-01.48.45:634][  0]Cmd: MAP LOAD FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.30-01.48.45:694][  0]LightingResults: New page: 光照构建
+[2021.04.30-01.48.45:694][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-01.48.45:694][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-01.48.45:694][  0]MapCheck: New page: 地图检测
+[2021.04.30-01.48.45:694][  0]LightingResults: New page: 光照构建
+[2021.04.30-01.48.45:703][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000122F7E9FC00), frame # 0
+[2021.04.30-01.48.45:703][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000122F7F61440), frame # 0
+[2021.04.30-01.48.45:704][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.04.30-01.48.47:787][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-01.48.47:787][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001228C40FE00), frame # 0
+[2021.04.30-01.48.47:787][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012281A85300), frame # 0
+[2021.04.30-01.48.47:892][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.30-01.48.47:916][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.04.30-01.48.47:916][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.30-01.48.47:917][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.134毫秒。
+[2021.04.30-01.48.47:917][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.283
+[2021.04.30-01.48.47:919][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.587
+[2021.04.30-01.48.48:116][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-01.48.48:132][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-01.48.48:144][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-01.48.48:155][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-01.48.48:162][  0]LogCollectionManager: Loaded 0 collections in 0.001146 seconds
+[2021.04.30-01.48.48:183][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/InventoryWithUMG/Saved/Collections/' took 0.00s
+[2021.04.30-01.48.48:183][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/InventoryWithUMG/Content/Developers/jan/Collections/' took 0.00s
+[2021.04.30-01.48.48:183][  0]LogFileCache: Scanning file cache for directory 'F:/UEProject/InventoryWithUMG/Content/Collections/' took 0.00s
+[2021.04.30-01.48.48:183][  0]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 3427 classes and 821 folders.
+[2021.04.30-01.48.48:189][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.30-01.48.48:251][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.30-01.48.48:253][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.04.30-01.48.48:287][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.30-01.48.48:287][  0]LogLoad: (Engine Initialization) Total time: 11.96 seconds
+[2021.04.30-01.48.48:287][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.30-01.48.48:331][  0]LogAssetRegistry: Asset discovery search completed in 8.1115 seconds
+[2021.04.30-01.48.48:336][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.04.30-01.48.48:337][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.30-01.48.48:344][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.30-01.48.48:346][  0]LogSlate: Took 0.000827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.04.30-01.48.48:347][  0]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.30-01.48.48:348][  0]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.30-01.48.48:414][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.30-01.48.48:641][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2021.04.30-01.48.49:654][  4]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.30-01.49.54:950][433]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:216).
+[2021.04.30-01.51.28:050][886]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{8e5402ae-b9f4-405c-89f8-27f329a1127b}.
+[2021.04.30-01.51.28:050][886]LogTemp: Resetting audio stream to device id 
+[2021.04.30-01.51.28:089][886]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-01.51.28:089][886]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-01.51.28:387][887]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{7820cf62-f3ab-4251-966e-9f627c2b657c}.
+[2021.04.30-01.51.28:387][887]LogTemp: Resetting audio stream to device id 
+[2021.04.30-01.51.28:404][887]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-01.51.28:404][887]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-01.52.07:878][  4]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-01.52.07:912][  4]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2021.04.30-01.52.08:119][  4]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.04.30-01.52.09:159][  4]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.30-01.52.12:028][299]LogSlate: Window 'TemplatePickup' being destroyed
+[2021.04.30-02.16.22:667][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2021.04.30-02.16.22:670][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.057
+[2021.04.30-02.16.22:693][ 70]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TemplatePickup] ([1] browsable assets)...
+[2021.04.30-02.16.22:740][ 70]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup]
+[2021.04.30-02.16.22:740][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TemplatePickup]
+[2021.04.30-02.16.22:975][ 70]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup_Auto12C8EA53746C842BAAD6930A282F93FED.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TemplatePickup_Auto1.uasset'
+[2021.04.30-02.16.22:992][ 70]LogFileHelpers: Auto-saving content packages took 0.321
+[2021.04.30-02.20.25:513][455]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.04.30-02.21.06:891][177]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-02.21.06:923][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.04.30-02.21.07:351][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.21.07:367][218]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup201ED2344E5DB4120B64328727A4E286.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.21.07:385][218]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.21.07:385][218]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.21.54:110][135]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-02.21.54:143][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.04.30-02.21.54:632][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.21.54:649][184]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup7312945F4B2AB95BD10855B81D8F2E70.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.21.54:666][184]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.21.54:667][184]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.22.28:731][771]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-02.22.28:764][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.04.30-02.22.29:326][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.22.29:342][827]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup2908876A482C5D0EDA814D9EE03FD8CF.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.22.29:358][827]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.22.29:358][827]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.25.04:883][ 43]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-02.25.04:916][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.04.30-02.25.05:461][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.25.05:482][ 99]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickupE92472104E988BB82FDA3E9616113C80.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.25.05:497][ 99]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.25.05:497][ 99]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.26.12:545][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.26.12:566][704]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup1B6820604E58A4698C4355AC3168C01D.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.26.12:584][704]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.26.12:584][704]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.27.18:226][547]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-02.27.18:260][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.04.30-02.27.18:743][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.27.18:771][595]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup7B7FFA924395C4FCF3CBD9B2F318696E.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.27.18:787][595]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.27.18:787][595]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.27.28:429][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.27.28:447][761]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup8E0DC7DE4376A0C5BB1F838986F53FD8.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.27.28:459][761]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.27.28:459][761]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.27.28:713][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-02.27.28:731][787]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup0532D19C4209BAB984A1469E96EFD88C.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-02.27.28:745][787]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-02.27.28:745][787]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-02.28.31:865][811]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-02.28.31:865][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-02.28.34:261][ 33]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-02.28.39:558][360]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.04.30-02.32.38:130][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.04.30-02.32.38:132][372]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.021
+[2021.04.30-02.32.38:132][372]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.30-02.32.38:146][372]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2021.04.30-02.32.38:146][372]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.30-02.32.38:191][372]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter_Auto2F01C7599462D8A9A40E20981C62BC108.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2021.04.30-02.32.38:192][372]LogFileHelpers: Auto-saving content packages took 0.060
+[2021.04.30-02.43.23:990][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.04.30-02.43.24:139][967]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto31C019F154A955A61945A38B625F98F27.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2021.04.30-02.43.24:162][967]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.193
+[2021.04.30-02.43.24:162][967]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.193
+[2021.04.30-02.43.24:163][967]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.30-02.43.24:192][967]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2021.04.30-02.43.24:192][967]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.30-02.43.24:251][967]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter_Auto3D63ADD554A937E90926424AC43EDE5E8.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2021.04.30-02.43.24:252][967]LogFileHelpers: Auto-saving content packages took 0.090
+[2021.04.30-02.45.08:667][883]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UWidgetBlueprintLibrary::SetInputMode_GameAndUIEx' [找不到元素。]
+[2021.04.30-02.47.58:107][495]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-02.47.58:195][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.04.30-02.47.58:690][537]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter5B0EACE24B32E4D34394AD9EE81EFDA6.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-02.47.58:731][537]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-02.47.58:731][537]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-02.49.59:620][644]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-02.49.59:676][644]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.04.30-02.50.00:550][719]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterDDDF1C4B4CB0299530750AA5870366F9.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-02.50.00:570][719]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-02.50.00:570][719]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-02.50.02:772][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.04.30-02.50.02:797][959]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMapE3A146FA4689EB66C311A2896ACAE15A.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.04.30-02.50.04:029][959]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_BuiltData9B654F604A781F593F9390985F506E60.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.30-02.50.04:071][959]AssetCheck: New page: 资产保存：多个资产
+[2021.04.30-02.50.04:071][959]LogContentValidation: Display: 正在验证World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.04.30-02.50.04:071][959]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.04.30-02.51.28:094][912]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::Less_IntInt' [找不到元素。]
+[2021.04.30-02.53.26:322][389]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-02.53.26:384][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.04.30-02.53.27:084][450]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter34943EA646F99DEBF9683B9F46E05CC4.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-02.53.27:102][450]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-02.53.27:102][450]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-02.54.33:417][996]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.04.30-02.54.38:215][543]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-02.54.38:273][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.04.30-02.54.38:833][586]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterB935566D4241EB323C4F70987D6BDF93.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-02.54.38:845][586]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-02.54.38:845][586]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-02.56.35:802][ 91]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2021.04.30-02.58.29:623][278]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-02.58.29:682][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.04.30-02.58.30:225][324]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterF2FF082948C260CC5276A69530B293C3.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-02.58.30:242][324]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-02.58.30:242][324]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-02.58.32:044][529]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterDAE0920E4BA215EC983176B4D086492E.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-02.58.32:060][529]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-02.58.32:060][529]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-02.59.22:465][303]LogEditorTransaction: Undo 添加节点
+[2021.04.30-03.01.00:282][222]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-03.01.00:343][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.04.30-03.01.01:079][284]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterBB01998745DCA191079A619079CDBD50.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-03.01.01:097][284]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-03.01.01:097][284]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-03.01.09:672][268]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-03.01.09:672][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-03.01.10:523][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.04.30-03.01.10:553][349]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMapE288D1DD41714BB3F2DC72958D9D8DB2.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.04.30-03.01.11:207][349]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_BuiltDataDF907BDC4862DCD344B453918507CA7A.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.30-03.01.11:222][349]AssetCheck: New page: 资产保存：多个资产
+[2021.04.30-03.01.11:222][349]LogContentValidation: Display: 正在验证World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.04.30-03.01.11:223][349]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.04.30-03.01.17:201][941]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-03.02.36:383][268]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-03.06.37:029][906]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-03.06.37:072][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.04.30-03.06.37:777][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-03.06.37:803][976]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup3FF14A1C40F8279EB8B9859B839B0A0B.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-03.06.37:819][976]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-03.06.37:819][976]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-03.08.05:361][233]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-03.08.05:400][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.04.30-03.08.05:974][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-03.08.05:999][289]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup34FC3F5948978C43698F179905338C22.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-03.08.06:014][289]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-03.08.06:014][289]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-03.09.56:496][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2021.04.30-03.09.57:122][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2021.04.30-03.10.01:222][ 79]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup)
+[2021.04.30-03.10.07:880][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.04.30-03.10.09:111][  8]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup)
+[2021.04.30-03.10.12:376][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.04.30-03.10.16:094][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.04.30-03.10.16:120][826]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMapDD754A7C467364CF822576BB6AD34C22.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.04.30-03.10.16:770][826]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_BuiltData6CA5E6F4445A5D84AFD48AB95793ADA9.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.30-03.10.16:785][826]AssetCheck: New page: 资产保存：多个资产
+[2021.04.30-03.10.16:785][826]LogContentValidation: Display: 正在验证World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.04.30-03.10.16:785][826]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.04.30-03.10.18:958][ 72]LogTemp: Repeating last play command: 选中的视口
+[2021.04.30-03.10.18:967][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-03.10.18:970][ 72]PIE: New page: PIE会话：FirstPersonExampleMap（2021年4月30日 下午7:10:18）
+[2021.04.30-03.10.18:972][ 72]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.30-03.10.18:976][ 72]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.30-03.10.18:976][ 72]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-03.10.18:988][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011677s)
+[2021.04.30-03.10.18:990][ 72]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-03.10.18:990][ 72]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000123CC681E00), frame # 279072
+[2021.04.30-03.10.18:991][ 72]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012382CE7600), frame # 279072
+[2021.04.30-03.10.18:991][ 72]LogPlayLevel: PIE: World Init took: (0.002330s)
+[2021.04.30-03.10.18:991][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014212s)
+[2021.04.30-03.10.19:012][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.04.30-03.10.19:013][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-03.10.19:013][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-03.10.19:013][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-03.10.19:013][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-03.10.19:013][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-03.10.19:013][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-03.10.19:013][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-03.10.19:013][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-03.10.19:014][ 72]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-03.10.19:014][ 72]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-03.10.19:020][ 72]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-03.10.19:020][ 72]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-03.10.19:037][ 72]LogAudioMixer: Display: Using Audio Device 耳机 (Earbuds X1 Stereo)
+[2021.04.30-03.10.19:037][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-03.10.19:037][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-03.10.19:037][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-03.10.19:037][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-03.10.19:049][ 72]LogInit: FAudioDevice initialized.
+[2021.04.30-03.10.19:065][ 72]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.30-03.10.19:068][ 72]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-11.10.19
+[2021.04.30-03.10.19:068][ 72]LogWorld: Bringing up level for play took: 0.001571
+[2021.04.30-03.10.19:068][ 72]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.04.30-03.10.19:128][ 72]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 20 classes and 0 folders.
+[2021.04.30-03.10.19:134][ 72]PIE: 登陆的服务器
+[2021.04.30-03.10.19:138][ 72]PIE: PIE总开始时间：0.173秒。
+[2021.04.30-03.10.37:635][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-03.10.37:635][ 12]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-03.10.37:635][ 12]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-03.10.37:635][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-03.10.37:643][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-03.10.37:648][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-03.10.37:673][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-03.10.37:715][ 12]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012382CE7600), frame # 281012
+[2021.04.30-03.10.37:715][ 12]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000123CC681E00), frame # 281012
+[2021.04.30-03.10.37:725][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.04.30-03.10.37:750][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.04.30-03.10.50:350][186]LogTemp: Repeating last play command: 选中的视口
+[2021.04.30-03.10.50:359][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-03.10.50:359][186]PIE: New page: PIE会话：FirstPersonExampleMap（2021年4月30日 下午7:10:50）
+[2021.04.30-03.10.50:359][186]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-03.10.50:373][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013683s)
+[2021.04.30-03.10.50:374][186]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-03.10.50:374][186]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000123CB427600), frame # 281186
+[2021.04.30-03.10.50:374][186]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000123D99B82C0), frame # 281186
+[2021.04.30-03.10.50:374][186]LogPlayLevel: PIE: World Init took: (0.001414s)
+[2021.04.30-03.10.50:374][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015212s)
+[2021.04.30-03.10.50:412][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.04.30-03.10.50:414][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-03.10.50:414][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-03.10.50:414][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-03.10.50:414][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-03.10.50:414][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-03.10.50:414][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-03.10.50:414][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-03.10.50:414][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-03.10.50:415][186]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-03.10.50:415][186]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-03.10.50:419][186]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-03.10.50:419][186]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-03.10.50:433][186]LogAudioMixer: Display: Using Audio Device 耳机 (Earbuds X1 Stereo)
+[2021.04.30-03.10.50:433][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-03.10.50:433][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-03.10.50:433][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-03.10.50:433][186]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-03.10.50:443][186]LogInit: FAudioDevice initialized.
+[2021.04.30-03.10.50:453][186]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.30-03.10.50:456][186]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-11.10.50
+[2021.04.30-03.10.50:456][186]LogWorld: Bringing up level for play took: 0.001386
+[2021.04.30-03.10.50:456][186]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.04.30-03.10.50:460][186]PIE: 登陆的服务器
+[2021.04.30-03.10.50:461][186]PIE: PIE总开始时间：0.102秒。
+[2021.04.30-03.10.53:475][544]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-03.10.53:515][549]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-03.11.13:825][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-03.11.13:825][583]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-03.11.13:825][583]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-03.11.13:825][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-03.11.13:836][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-03.11.13:840][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-03.11.13:874][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-03.11.13:875][583]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000123D99B82C0), frame # 283583
+[2021.04.30-03.11.13:875][583]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000123CB427600), frame # 283583
+[2021.04.30-03.11.13:877][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.04.30-03.11.14:010][583]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.30-03.11.14:016][584]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.04.30-03.11.26:954][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-03.11.26:976][ 38]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup96FAA9384BB038138C0CDC990DD3C023.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-03.11.26:991][ 38]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-03.11.26:991][ 38]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-04.54.17:095][313]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{8e5402ae-b9f4-405c-89f8-27f329a1127b}.
+[2021.04.30-04.54.17:095][313]LogTemp: Resetting audio stream to device id 
+[2021.04.30-04.54.17:164][313]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-04.54.17:164][313]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-06.00.14:422][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.04.30-06.10.23:153][404]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3a6e5af5-6f92-4add-9858-442a0db4c9d3}.
+[2021.04.30-06.10.23:153][404]LogTemp: Resetting audio stream to device id 
+[2021.04.30-06.10.24:406][404]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-06.10.24:406][404]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-06.10.24:492][405]LogTemp: Resetting audio stream to device id 
+[2021.04.30-06.10.24:511][405]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-06.10.24:511][405]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-06.10.33:989][478]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-06.10.33:990][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-06.10.34:695][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.04.30-06.10.34:695][490]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-06.10.34:695][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-06.10.41:747][787]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD
+[2021.04.30-06.10.48:417][431]LogSlate: Window 'FirstPersonHUD' being destroyed
+[2021.04.30-06.10.48:421][431]LogSlate: Window 'FirstPersonHUD' being destroyed
+[2021.04.30-06.10.48:422][431]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-06.10.48:422][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-06.10.57:735][397]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UMG/GameHUD.GameHUD
+[2021.04.30-06.11.23:523][822]BlueprintLog: New page: 编译GameHUD
+[2021.04.30-06.11.23:704][822]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2021.04.30-06.11.24:169][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset" SILENT=true
+[2021.04.30-06.11.24:202][859]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/GameHUD78A582E440C196CFED664F8490B82CB4.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset'
+[2021.04.30-06.11.24:221][859]AssetCheck: New page: 资产保存：GameHUD
+[2021.04.30-06.11.24:221][859]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/GameHUD.GameHUD
+[2021.04.30-06.11.34:945][838]BlueprintLog: New page: 编译GameHUD
+[2021.04.30-06.11.35:184][838]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2021.04.30-06.11.35:702][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset" SILENT=true
+[2021.04.30-06.11.35:732][878]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/GameHUD44DE013D4876D63BC3431980DC5A552D.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset'
+[2021.04.30-06.11.35:749][878]AssetCheck: New page: 资产保存：GameHUD
+[2021.04.30-06.11.35:749][878]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/GameHUD.GameHUD
+[2021.04.30-06.11.56:311][784]BlueprintLog: New page: 编译GameHUD
+[2021.04.30-06.11.56:352][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.04.30-06.11.57:035][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset" SILENT=true
+[2021.04.30-06.11.57:063][846]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/GameHUD994120674912C29626CF67B562844BCC.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset'
+[2021.04.30-06.11.57:078][846]AssetCheck: New page: 资产保存：GameHUD
+[2021.04.30-06.11.57:078][846]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/GameHUD.GameHUD
+[2021.04.30-06.18.10:720][827]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.04.30-06.18.10:727][827]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.051
+[2021.04.30-06.18.10:727][827]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMG/GameHUD] ([1] browsable assets)...
+[2021.04.30-06.18.10:728][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/GameHUD]
+[2021.04.30-06.18.10:728][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/UMG/GameHUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2021.04.30-06.18.10:757][827]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/GameHUD_Auto4C7B2849D4FA092D95FEFB0844C836C01.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/UMG/GameHUD_Auto4.uasset'
+[2021.04.30-06.18.10:771][827]LogFileHelpers: Auto-saving content packages took 0.044
+[2021.04.30-06.18.47:700][496]BlueprintLog: New page: 编译GameHUD
+[2021.04.30-06.18.47:742][496]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.04.30-06.18.48:442][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset" SILENT=true
+[2021.04.30-06.18.48:470][547]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/GameHUDC0A692A64179C2898E0FBDA4DAA38220.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset'
+[2021.04.30-06.18.48:487][547]AssetCheck: New page: 资产保存：GameHUD
+[2021.04.30-06.18.48:487][547]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/GameHUD.GameHUD
+[2021.04.30-06.18.59:456][724]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-06.19.54:026][927]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-06.19.54:038][927]LogBlueprint: Error: [Compiler FirstPersonCharacter] 此蓝图（自身）并非是一个 UserWidget，因此 ' Target ’ 必须拥有一个连接。
+[2021.04.30-06.19.54:087][927]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.04.30-06.19.54:677][966]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterE9ABAF6D47D7C820CE152F9551CF0DA6.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-06.19.54:695][966]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-06.19.54:695][966]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-06.20.12:117][955]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-06.20.12:182][955]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.04.30-06.20.12:800][999]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter73BE54A34B41AC6CCC3F52AD1F1DE487.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-06.20.12:818][999]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-06.20.12:818][999]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-06.28.11:240][615]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.04.30-06.28.11:369][615]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto5D574C7534AD5882F19CB6D923DFA15E8.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2021.04.30-06.28.11:370][615]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.163
+[2021.04.30-06.28.11:370][615]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.163
+[2021.04.30-06.28.11:370][615]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.30-06.28.11:384][615]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2021.04.30-06.28.11:384][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.30-06.28.11:451][615]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter_Auto59FBD2F2C449792F12DF625AF0F435FEB.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2021.04.30-06.28.11:452][615]LogFileHelpers: Auto-saving content packages took 0.081
+[2021.04.30-06.29.36:781][459]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-06.29.36:848][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.04.30-06.29.37:252][470]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterF4E5D1BC464340687799628E3547CE0E.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-06.29.37:271][470]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-06.29.37:271][470]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-06.30.13:877][117]LogHttp: Warning: 00000123B5DC3200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2713D39-47CC-95D2-FFC0-6180AB61FA81%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=fae295ae4067db5bdacb8785be780437%7Ca753e94778344077830c692490b97c65%7C440e548e-859f-49b8-b92f-195fb7d2b316&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.04.30-06.30.13:877][117]LogHttp: Warning: 00000123B5DC3200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.04.30-06.30.13:877][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x122cee77f70 [can pipeline])
+[2021.04.30-06.30.13:877][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 1 (Re-using existing connection! (#96) with host datarouter.ol.epicgames.com)
+[2021.04.30-06.30.13:877][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.168.163.195) port 443 (#96))
+[2021.04.30-06.30.13:877][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.04.30-06.30.13:877][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.04.30-06.30.13:878][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.04.30-06.30.13:878][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.04.30-06.30.13:878][117]LogHttp: Warning: 00000123B5DC3200: libcurl info message cache 7 (Closing connection 96)
+[2021.04.30-06.30.14:215][118]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2713D39-47CC-95D2-FFC0-6180AB61FA81%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=fae295ae4067db5bdacb8785be780437%7Ca753e94778344077830c692490b97c65%7C440e548e-859f-49b8-b92f-195fb7d2b316&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.04.30-06.38.09:417][571]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-06.38.09:490][571]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.04.30-06.38.10:612][665]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter5F9A522644786DDE01B961A79AA28DB1.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-06.38.10:631][665]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-06.38.10:631][665]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-06.38.11:143][713]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter66C979884F2A2412CBC6A397E64CA7F2.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-06.38.11:163][713]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-06.38.11:163][713]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-06.38.47:306][991]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.04.30-06.38.47:337][991]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto6DDD725DB4068E8DE75DC50A05CC6661E.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2021.04.30-06.38.47:339][991]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.061
+[2021.04.30-06.38.47:339][991]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.061
+[2021.04.30-06.48.51:629][296]LogUObjectHash: Compacting FUObjectHashTables data took   8.61ms
+[2021.04.30-06.48.51:651][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.446
+[2021.04.30-06.48.51:656][296]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.30-06.48.51:656][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.30-06.48.51:841][296]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter_Auto76B1ADAC74D30A4F265A8CFA48ED7C217.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto7.uasset'
+[2021.04.30-06.48.51:844][296]LogFileHelpers: Auto-saving content packages took 0.191
+[2021.04.30-07.03.27:540][  7]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2021.04.30-07.03.27:543][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.038
+[2021.04.30-07.03.27:543][  7]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.30-07.03.27:559][  7]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2021.04.30-07.03.27:559][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.30-07.03.27:613][  7]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter_Auto87E812DBE4E919140FFDCF6AA5B52CF8F.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto8.uasset'
+[2021.04.30-07.03.27:614][  7]LogFileHelpers: Auto-saving content packages took 0.071
+[2021.04.30-07.04.09:268][270]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-07.04.09:357][270]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.04.30-07.04.10:394][357]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterAE399EB04FF47B2B7E55819532574961.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-07.04.10:415][357]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-07.04.10:415][357]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-07.06.21:139][555]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-07.06.21:213][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2021.04.30-07.06.21:942][609]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter8788800742FA2843C6E5D9876BEBFA57.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-07.06.21:961][609]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-07.06.21:961][609]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-07.13.28:034][752]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.04.30-07.13.28:089][752]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto981D2F4E64D30B1D60AE29F8F938C7343.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto9.umap'
+[2021.04.30-07.13.28:090][752]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.090
+[2021.04.30-07.13.28:090][752]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.090
+[2021.04.30-07.23.28:669][982]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.04.30-07.23.28:671][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.042
+[2021.04.30-07.23.28:671][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.30-07.23.28:671][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.30-07.23.28:731][982]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter_Auto064A786E94C01D1B8FAD3E687BE07FB81.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto0.uasset'
+[2021.04.30-07.23.28:732][982]LogFileHelpers: Auto-saving content packages took 0.061
+[2021.04.30-07.33.31:137][399]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-07.33.31:210][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.04.30-07.33.31:908][448]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterCCFE64FA4F5C85BC6679FFA8AED03447.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-07.33.31:929][448]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-07.33.31:929][448]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-07.33.56:574][558]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.04.30-07.33.56:601][558]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto1CD794FD64B4FCB87AB37FABC65B010C7.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2021.04.30-07.33.56:602][558]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.069
+[2021.04.30-07.33.56:602][558]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.069
+[2021.04.30-07.43.57:226][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.04.30-07.43.57:228][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.033
+[2021.04.30-07.43.57:228][ 49]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.30-07.43.57:237][ 49]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2021.04.30-07.43.57:237][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.30-07.43.57:293][ 49]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacter_Auto2D191C0054DA27D529023919B943791FF.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2021.04.30-07.43.57:294][ 49]LogFileHelpers: Auto-saving content packages took 0.066
+[2021.04.30-07.44.24:796][578]BlueprintLog: New page: 编译FirstPersonCharacter
+[2021.04.30-07.44.24:866][578]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.04.30-07.44.25:502][620]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonCharacterDFB3BA564A7C19E6551F578D12E444E7.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.30-07.44.25:520][620]AssetCheck: New page: 资产保存：FirstPersonCharacter
+[2021.04.30-07.44.25:520][620]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.30-07.44.27:502][837]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.04.30-07.44.27:528][837]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap77D4789441537F729037F9A3D29D0800.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.04.30-07.44.29:068][837]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_BuiltData2F3C859240F64C2DC528EB9BB83FF278.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.30-07.44.29:104][837]AssetCheck: New page: 资产保存：多个资产
+[2021.04.30-07.44.29:104][837]LogContentValidation: Display: 正在验证World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.04.30-07.44.29:104][837]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.04.30-07.45.59:895][246]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-07.45.59:895][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-07.46.02:688][509]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-07.49.42:748][156]LogSlate: Took 0.019568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.04.30-07.49.54:338][245]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-07.49.54:401][245]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2021.04.30-07.49.54:656][264]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-07.49.54:704][264]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.04.30-07.49.55:049][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-07.49.55:086][289]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickupEC6F544E4DC2B8C32E633EBA932EA1A8.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-07.49.55:101][289]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-07.49.55:101][289]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-07.53.16:988][858]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-07.53.17:039][858]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.04.30-07.53.17:455][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-07.53.17:482][894]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup92AFBDF84D5CAD1F705656A70FF091D2.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-07.53.17:499][894]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-07.53.17:499][894]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-07.54.11:248][845]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-07.54.11:299][845]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.04.30-07.54.11:737][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-07.54.11:763][883]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup1F756C90438D25F3ABF715BE1C268379.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-07.54.11:777][883]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-07.54.11:777][883]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-07.55.13:934][193]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2021.04.30-07.55.13:966][193]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto3EE4A1A524011A6BF4B47FE8E79552E86.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2021.04.30-07.55.13:967][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.063
+[2021.04.30-07.55.13:968][193]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2021.04.30-08.05.14:456][718]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.04.30-08.05.14:486][718]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto4D9C772324F52D93A34752790EDC073C5.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2021.04.30-08.05.14:487][718]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.061
+[2021.04.30-08.05.14:488][718]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.061
+[2021.04.30-08.05.14:488][718]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/TemplatePickup] ([1] browsable assets)...
+[2021.04.30-08.05.14:501][718]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup]
+[2021.04.30-08.05.14:501][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/TemplatePickup]
+[2021.04.30-08.05.14:534][718]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup_Auto415B1CA474E702B3C938E49BCC17BB1A4.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Blueprints/TemplatePickup_Auto4.uasset'
+[2021.04.30-08.05.14:535][718]LogFileHelpers: Auto-saving content packages took 0.048
+[2021.04.30-08.07.34:520][475]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-08.07.34:567][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.04.30-08.07.36:208][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-08.07.36:237][658]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup33EA37DC474B2383FD00BA9EDABBC3FA.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-08.07.36:254][658]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-08.07.36:254][658]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-08.08.50:652][791]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-08.08.50:702][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.04.30-08.08.51:769][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-08.08.51:796][906]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup96BB9CF84EB2DC2E2149C7A82FB1731A.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-08.08.51:811][906]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-08.08.51:811][906]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-08.10.08:963][241]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.04.30-08.10.08:963][241]Can't find target actor or component.
+[2021.04.30-08.11.18:782][523]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup)
+[2021.04.30-08.11.27:551][556]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup2)
+[2021.04.30-08.11.35:034][444]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup2)
+[2021.04.30-08.13.07:813][754]BlueprintLog: New page: 编译TemplatePickup
+[2021.04.30-08.13.07:875][754]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.04.30-08.13.09:181][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2021.04.30-08.13.09:211][897]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/TemplatePickup254FF3094F626C1524D7529BCF680708.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2021.04.30-08.13.09:228][897]AssetCheck: New page: 资产保存：TemplatePickup
+[2021.04.30-08.13.09:228][897]LogContentValidation: Display: 正在验证Blueprint /Game/FirstPersonBP/Blueprints/TemplatePickup.TemplatePickup
+[2021.04.30-08.15.04:002][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.04.30-08.15.05:990][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.04.30-08.15.06:586][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.04.30-08.15.07:008][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.04.30-08.15.08:546][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.04.30-08.15.44:485][581]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2021.04.30-08.15.44:519][581]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_Auto51865629645C95FC29CCF7AAFA8CCACA9.tmp' to '../../../../../../UEProject/InventoryWithUMG/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2021.04.30-08.15.44:520][581]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.085
+[2021.04.30-08.15.44:520][581]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.085
+[2021.04.30-08.16.58:038][626]Cmd: EDIT COPY
+[2021.04.30-08.16.58:220][638]Cmd: EDIT PASTE
+[2021.04.30-08.18.15:831][415]Cmd: DELETE
+[2021.04.30-08.18.15:832][415]Cmd: ACTOR DELETE
+[2021.04.30-08.18.15:908][415]LogEditorActor: Deleted Actor: TemplatePickup_C
+[2021.04.30-08.18.15:947][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.04.30-08.18.15:955][415]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2021.04.30-08.18.17:819][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.04.30-08.18.17:843][627]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMapE02A83D64ADC529EB3CFA8BF57F90CAB.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.04.30-08.18.18:506][627]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_BuiltDataC8CD66FF46CFE211746F929CBEF50F23.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.30-08.18.18:554][627]AssetCheck: New page: 资产保存：多个资产
+[2021.04.30-08.18.18:554][627]LogContentValidation: Display: 正在验证World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.04.30-08.18.18:554][627]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.04.30-08.20.25:837][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.04.30-08.20.25:861][179]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMapA80051234B05782362C7A0A4C30E9F61.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.04.30-08.20.26:503][179]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_BuiltData25F830ED45F3D9CD29F3DEBAD09B6EE9.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.30-08.20.26:522][179]AssetCheck: New page: 资产保存：多个资产
+[2021.04.30-08.20.26:522][179]LogContentValidation: Display: 正在验证World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.04.30-08.20.26:522][179]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.04.30-08.23.49:454][350]LogTemp: Repeating last play command: 选中的视口
+[2021.04.30-08.23.49:476][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-08.23.49:477][350]PIE: New page: PIE会话：FirstPersonExampleMap（2021年5月1日 上午12:23:49）
+[2021.04.30-08.23.49:478][350]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.23.49:500][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022623s)
+[2021.04.30-08.23.49:504][350]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-08.23.49:504][350]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001230C78E200), frame # 532350
+[2021.04.30-08.23.49:504][350]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000123D65E3380), frame # 532350
+[2021.04.30-08.23.49:504][350]LogPlayLevel: PIE: World Init took: (0.003888s)
+[2021.04.30-08.23.49:504][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026801s)
+[2021.04.30-08.23.49:535][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-08.23.49:537][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-08.23.49:537][350]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-08.23.49:537][350]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-08.23.49:555][350]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-08.23.49:555][350]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-08.23.49:572][350]LogAudioMixer: Display: Using Audio Device 耳机 (Earbuds X1 Stereo)
+[2021.04.30-08.23.49:573][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-08.23.49:573][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-08.23.49:573][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-08.23.49:573][350]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-08.23.49:574][350]LogInit: FAudioDevice initialized.
+[2021.04.30-08.23.49:594][350]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.30-08.23.49:597][350]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-16.23.49
+[2021.04.30-08.23.49:598][350]LogWorld: Bringing up level for play took: 0.002147
+[2021.04.30-08.23.49:600][350]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.04.30-08.23.49:632][350]PIE: 登陆的服务器
+[2021.04.30-08.23.49:633][350]PIE: PIE总开始时间：0.17秒。
+[2021.04.30-08.23.53:402][785]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.23.53:435][789]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.23.55:021][979]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.23.55:064][984]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.23.56:415][146]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.23.56:457][151]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.02:292][848]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.02:335][853]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.03:898][ 40]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-46.703 Y=-996.886 Z=163.114] for [FirstPersonProjectile_C]
+[2021.04.30-08.24.09:958][760]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.09:992][764]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.13:706][208]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.25:245][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.24.25:245][192]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.24.25:245][192]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.24.25:246][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.24.25:252][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-08.24.25:256][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.24.25:301][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.24.25:302][192]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000123D65E3380), frame # 536192
+[2021.04.30-08.24.25:302][192]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001230C78E200), frame # 536192
+[2021.04.30-08.24.25:306][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.04.30-08.24.25:387][193]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.04.30-08.24.45:948][152]LogTemp: Repeating last play command: 选中的视口
+[2021.04.30-08.24.45:956][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-08.24.45:956][152]PIE: New page: PIE会话：FirstPersonExampleMap（2021年5月1日 上午12:24:45）
+[2021.04.30-08.24.45:956][152]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.24.45:967][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010893s)
+[2021.04.30-08.24.45:968][152]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-08.24.45:968][152]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000122FD8AC200), frame # 538152
+[2021.04.30-08.24.45:968][152]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000123B3E6FD80), frame # 538152
+[2021.04.30-08.24.45:968][152]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2021.04.30-08.24.45:968][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012273s)
+[2021.04.30-08.24.45:998][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.04.30-08.24.46:000][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-08.24.46:000][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-08.24.46:000][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-08.24.46:000][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-08.24.46:001][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-08.24.46:001][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-08.24.46:001][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-08.24.46:001][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-08.24.46:001][152]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-08.24.46:001][152]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-08.24.46:005][152]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-08.24.46:005][152]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-08.24.46:019][152]LogAudioMixer: Display: Using Audio Device 耳机 (Earbuds X1 Stereo)
+[2021.04.30-08.24.46:019][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-08.24.46:019][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-08.24.46:019][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-08.24.46:020][152]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-08.24.46:029][152]LogInit: FAudioDevice initialized.
+[2021.04.30-08.24.46:037][152]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.30-08.24.46:040][152]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-16.24.46
+[2021.04.30-08.24.46:040][152]LogWorld: Bringing up level for play took: 0.001533
+[2021.04.30-08.24.46:040][152]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.04.30-08.24.46:046][152]PIE: 登陆的服务器
+[2021.04.30-08.24.46:046][152]PIE: PIE总开始时间：0.091秒。
+[2021.04.30-08.24.49:670][582]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.49:704][586]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.52:954][976]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.52:988][980]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.24.59:665][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.24.59:665][732]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.24.59:665][732]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.24.59:665][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.24.59:676][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-08.24.59:681][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.24.59:717][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.24.59:719][732]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000123B3E6FD80), frame # 539732
+[2021.04.30-08.24.59:719][732]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000122FD8AC200), frame # 539732
+[2021.04.30-08.24.59:721][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.04.30-08.24.59:786][733]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.04.30-08.49.10:290][266]LogTemp: Repeating last play command: 选中的视口
+[2021.04.30-08.49.10:298][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-08.49.10:299][266]PIE: New page: PIE会话：FirstPersonExampleMap（2021年5月1日 上午12:49:10）
+[2021.04.30-08.49.10:299][266]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.49.10:310][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010780s)
+[2021.04.30-08.49.10:311][266]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-08.49.10:311][266]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001239B28BA00), frame # 547266
+[2021.04.30-08.49.10:311][266]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000123CC4F42C0), frame # 547266
+[2021.04.30-08.49.10:311][266]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2021.04.30-08.49.10:311][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012333s)
+[2021.04.30-08.49.10:340][266]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-08.49.10:346][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-08.49.10:346][266]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-08.49.10:346][266]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-08.49.10:350][266]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-08.49.10:350][266]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-08.49.10:366][266]LogAudioMixer: Display: Using Audio Device 耳机 (Earbuds X1 Stereo)
+[2021.04.30-08.49.10:366][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-08.49.10:366][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-08.49.10:366][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-08.49.10:367][266]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-08.49.10:377][266]LogInit: FAudioDevice initialized.
+[2021.04.30-08.49.10:389][266]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.30-08.49.10:393][266]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-16.49.10
+[2021.04.30-08.49.10:393][266]LogWorld: Bringing up level for play took: 0.003202
+[2021.04.30-08.49.10:393][266]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.04.30-08.49.10:401][266]PIE: 登陆的服务器
+[2021.04.30-08.49.10:402][266]PIE: PIE总开始时间：0.104秒。
+[2021.04.30-08.49.31:648][953]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.49.31:695][958]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.49.49:695][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.49.49:695][889]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.49.49:695][889]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.49.49:695][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.49.49:703][889]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-08.49.49:707][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.49.49:730][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.49.49:744][889]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000123CC4F42C0), frame # 549889
+[2021.04.30-08.49.49:744][889]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001239B28BA00), frame # 549889
+[2021.04.30-08.49.49:747][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.04.30-08.49.49:804][890]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.04.30-08.49.52:006][ 86]BlueprintLog: New page: 编译GameHUD
+[2021.04.30-08.49.52:053][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.04.30-08.49.52:673][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset" SILENT=true
+[2021.04.30-08.49.52:708][134]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/GameHUD0F6A976B44D3F439B730EAA335D46816.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset'
+[2021.04.30-08.49.52:726][134]AssetCheck: New page: 资产保存：GameHUD
+[2021.04.30-08.49.52:726][134]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/GameHUD.GameHUD
+[2021.04.30-08.49.53:345][198]LogTemp: Repeating last play command: 选中的视口
+[2021.04.30-08.49.53:354][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-08.49.53:354][198]PIE: New page: PIE会话：FirstPersonExampleMap（2021年5月1日 上午12:49:53）
+[2021.04.30-08.49.53:354][198]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.49.53:364][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010206s)
+[2021.04.30-08.49.53:365][198]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-08.49.53:365][198]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000123D9508600), frame # 550198
+[2021.04.30-08.49.53:365][198]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000123B6CE4F40), frame # 550198
+[2021.04.30-08.49.53:365][198]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2021.04.30-08.49.53:365][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011488s)
+[2021.04.30-08.49.53:397][198]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2021.04.30-08.49.53:398][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-08.49.53:398][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-08.49.53:398][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-08.49.53:398][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-08.49.53:398][198]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-08.49.53:398][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-08.49.53:398][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-08.49.53:398][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-08.49.53:399][198]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-08.49.53:399][198]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-08.49.53:402][198]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-08.49.53:402][198]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-08.49.53:415][198]LogAudioMixer: Display: Using Audio Device 耳机 (Earbuds X1 Stereo)
+[2021.04.30-08.49.53:416][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-08.49.53:416][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-08.49.53:416][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-08.49.53:416][198]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-08.49.53:427][198]LogInit: FAudioDevice initialized.
+[2021.04.30-08.49.53:443][198]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.30-08.49.53:446][198]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-16.49.53
+[2021.04.30-08.49.53:447][198]LogWorld: Bringing up level for play took: 0.003159
+[2021.04.30-08.49.53:447][198]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.04.30-08.49.53:451][198]PIE: 登陆的服务器
+[2021.04.30-08.49.53:452][198]PIE: PIE总开始时间：0.099秒。
+[2021.04.30-08.49.56:886][566]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.49.56:921][570]PIE: Warning: 控件“PickupText_C”已添加到屏幕。
+[2021.04.30-08.50.09:552][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset" SILENT=true
+[2021.04.30-08.50.09:580][864]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/GameHUD413153F041C42D9ADD9F2894AAC34C33.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/UMG/GameHUD.uasset'
+[2021.04.30-08.50.09:586][864]AssetCheck: New page: 资产保存：GameHUD
+[2021.04.30-08.50.09:586][864]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/UMG/GameHUD.GameHUD
+[2021.04.30-08.50.15:804][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.50.15:804][468]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.50.15:804][468]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.50.15:804][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.50.15:815][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-08.50.15:819][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.50.15:856][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.50.15:857][468]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000123B6CE4F40), frame # 552468
+[2021.04.30-08.50.15:857][468]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000123D9508600), frame # 552468
+[2021.04.30-08.50.15:860][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.04.30-08.50.15:920][469]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.04.30-08.50.16:941][543]LogTemp: Repeating last play command: 选中的视口
+[2021.04.30-08.50.16:949][543]BlueprintLog: New page: 运行前自动重新编译
+[2021.04.30-08.50.16:953][543]LogPlayLevel: [PlayLevel] Compiling GameHUD before play...
+[2021.04.30-08.50.17:089][543]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.04.30-08.50.17:090][543]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (1 blueprints)
+[2021.04.30-08.50.17:090][543]PIE: New page: PIE会话：FirstPersonExampleMap（2021年5月1日 上午12:50:17）
+[2021.04.30-08.50.17:090][543]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.50.17:099][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009873s)
+[2021.04.30-08.50.17:100][543]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-08.50.17:100][543]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001237F58D000), frame # 552543
+[2021.04.30-08.50.17:100][543]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012294C25D00), frame # 552543
+[2021.04.30-08.50.17:100][543]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2021.04.30-08.50.17:100][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010923s)
+[2021.04.30-08.50.17:127][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.04.30-08.50.17:128][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-08.50.17:128][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-08.50.17:128][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-08.50.17:128][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-08.50.17:128][543]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-08.50.17:129][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-08.50.17:129][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-08.50.17:129][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-08.50.17:129][543]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-08.50.17:129][543]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-08.50.17:132][543]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-08.50.17:132][543]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-08.50.17:146][543]LogAudioMixer: Display: Using Audio Device 耳机 (Earbuds X1 Stereo)
+[2021.04.30-08.50.17:146][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-08.50.17:146][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-08.50.17:146][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-08.50.17:146][543]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-08.50.17:158][543]LogInit: FAudioDevice initialized.
+[2021.04.30-08.50.17:170][543]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.30-08.50.17:173][543]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-16.50.17
+[2021.04.30-08.50.17:173][543]LogWorld: Bringing up level for play took: 0.002928
+[2021.04.30-08.50.17:173][543]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.04.30-08.50.17:179][543]PIE: 登陆的服务器
+[2021.04.30-08.50.17:179][543]PIE: PIE总开始时间：0.231秒。
+[2021.04.30-08.50.23:269][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.04.30-08.50.25:328][139]LogSlate: Window '保存内容' being destroyed
+[2021.04.30-08.50.25:362][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.04.30-08.50.25:391][139]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap3D6F5BC44D57643FB4F91C9CF2739483.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.04.30-08.50.25:406][139]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.069
+[2021.04.30-08.50.26:044][139]LogSavePackage: Moving '../../../../../../UEProject/InventoryWithUMG/Saved/FirstPersonExampleMap_BuiltDataF4E7E2B544393B0D21CEF88D251935F9.tmp' to '../../../../../../UEProject/InventoryWithUMG/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.04.30-08.50.26:079][139]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.50.26:079][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.50.26:184][139]LogSlate: Window 'GameHUD' being destroyed
+[2021.04.30-08.50.26:256][139]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.50.26:256][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.50.26:269][139]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.50.26:269][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.50.26:477][139]LogSlate: Window '消息日志' being destroyed
+[2021.04.30-08.50.26:490][139]LogSlate: Window 'InventoryWithUMG - 虚幻编辑器' being destroyed
+[2021.04.30-08.50.26:631][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-08.50.26:631][139]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-08.50.26:673][139]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-08.50.26:673][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.50.26:681][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-08.50.26:684][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-08.50.26:747][139]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.04.30-08.50.27:487][139]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.740 s
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: === Handled ensure: ===
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: 
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/UMG/Private/Slate/SObjectWidget.cpp] [Line: 43]
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: SObjectWidget for 'InventorySlot_C /Engine/Transient.World_12:GameHUD_C_57.WidgetTree_0.Slot_0' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: Stack: 
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe0adba8ee UE4Editor-UMG.dll!UnknownFunction []
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe0ac1e9a2 UE4Editor-UMG.dll!UnknownFunction []
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e54e85 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e41212 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e4750d UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:487][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10818176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1081c4ac UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fa0a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10818176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e54c5e UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e41312 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e46159 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe0ace5ae2 UE4Editor-UMG.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1144bcc8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe11429f9b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe113b9d33 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe113b8f9c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffde0afae78 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffdd94b0072 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffdd9443c3c UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffdd945272c UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffde0647698 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffdd936bd83 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffdd9445777 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10818176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1081c4ac UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fa0a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e54e43 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10d10272 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e54e43 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10d10272 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e54e43 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10d10272 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e54e43 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:488][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10d10272 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10818176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1081c4ac UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fa0a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10818176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1081c4ac UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fa0a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fc12 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10e54e43 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10d10272 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1089d6f1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10818176 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe1080fd1a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe108084ea UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10cd6a37 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10cbf4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe10cb2392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe12b37f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe12b25c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe12b3a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe12b217d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe3d7de858 USER32.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: [Callstack] 0x00007ffe3d7de299 USER32.dll!UnknownFunction []
+[2021.04.30-08.50.27:489][139]LogOutputDevice: Error: 
