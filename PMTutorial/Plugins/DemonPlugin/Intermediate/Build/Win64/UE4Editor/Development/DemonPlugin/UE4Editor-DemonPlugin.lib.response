@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DemonPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\PMTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UE4_Project\PMTutorial\Plugins\DemonPlugin\Intermediate\Build\Win64\UE4Editor\Development\DemonPlugin\Module.DemonPlugin.cpp.obj"
+"D:\UE4_Project\PMTutorial\Plugins\DemonPlugin\Intermediate\Build\Win64\UE4Editor\Development\DemonPlugin\Module.DemonPlugin.gen.cpp.obj"
+"D:\UE4_Project\PMTutorial\Plugins\DemonPlugin\Intermediate\Build\Win64\UE4Editor\Development\DemonPlugin\Default.rc2.res"
+/OUT:"D:\UE4_Project\PMTutorial\Plugins\DemonPlugin\Intermediate\Build\Win64\UE4Editor\Development\DemonPlugin\UE4Editor-DemonPlugin.lib"

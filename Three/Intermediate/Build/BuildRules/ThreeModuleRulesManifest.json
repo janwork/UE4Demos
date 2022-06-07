@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\UEProject\\Three\\Source\\Match3\\Match3.Build.cs",
+		"F:\\UEProject\\Three\\Source\\UnrealMatch3.Target.cs",
+		"F:\\UEProject\\Three\\Source\\UnrealMatch3Editor.Target.cs"
+	],
+	"EngineVersion": "4.26.1"
+}

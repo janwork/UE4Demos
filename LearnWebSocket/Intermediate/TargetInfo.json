@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LearnWebSocket",
+			"Path": "F:\\UEProject\\LearnWebSocket\\Source\\LearnWebSocket.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LearnWebSocketEditor",
+			"Path": "F:\\UEProject\\LearnWebSocket\\Source\\LearnWebSocketEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

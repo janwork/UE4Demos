@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GAS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{427D5947-C129-49FF-833A-AA38134600ED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GAS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GASEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7F37217B-7D95-4EDA-89CF-1D94830BF019}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GAS">
+      <UniqueIdentifier>{09976AE9-EDAB-4E29-A648-CA3FABB36A31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GAS\GAS.Build.cs">
+      <Filter>Source\GAS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GAS\GAS.cpp">
+      <Filter>Source\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAS\GAS.h">
+      <Filter>Source\GAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAS\GASAbilitySystemComponent.cpp">
+      <Filter>Source\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAS\GASAbilitySystemComponent.h">
+      <Filter>Source\GAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAS\GASAttributeSet.cpp">
+      <Filter>Source\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAS\GASAttributeSet.h">
+      <Filter>Source\GAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAS\GASCharacter.cpp">
+      <Filter>Source\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAS\GASCharacter.h">
+      <Filter>Source\GAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAS\GASGameMode.cpp">
+      <Filter>Source\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAS\GASGameMode.h">
+      <Filter>Source\GAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAS\GASGameplayAbility.cpp">
+      <Filter>Source\GAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAS\GASGameplayAbility.h">
+      <Filter>Source\GAS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

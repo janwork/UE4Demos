@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PMTutorial-0007.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\PMTutorialEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\UE4Editor\Development\PMTutorial\PMTutorial.cpp.obj"
+"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\UE4Editor\Development\PMTutorial\PMTutorialGameModeBase.cpp.obj"
+"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\UE4Editor\Development\PMTutorial\PMTutorial.init.gen.cpp.obj"
+"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\UE4Editor\Development\PMTutorial\PMTutorialGameModeBase.gen.cpp.obj"
+"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\UE4Editor\Development\PMTutorial\Default.rc2.res"
+/OUT:"D:\UE4_Project\PMTutorial\Intermediate\Build\Win64\UE4Editor\Development\PMTutorial\UE4Editor-PMTutorial-0007.lib"

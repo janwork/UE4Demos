@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PMTutorial",
+			"Path": "D:\\UE4_Project\\PMTutorial\\Source\\PMTutorial.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PMTutorialEditor",
+			"Path": "D:\\UE4_Project\\PMTutorial\\Source\\PMTutorialEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

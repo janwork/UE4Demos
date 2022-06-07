@@ -1,0 +1,3 @@
+F:\UEProject\LearnWebSocket\Intermediate\Build\Win64\UE4Editor\Development\LearnWebSocket\Definitions.LearnWebSocket.h
+F:\UE4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\UE4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
