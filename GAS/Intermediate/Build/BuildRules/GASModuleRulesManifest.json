@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\UEProject\\GAS\\Source\\GAS\\GAS.Build.cs",
+		"F:\\UEProject\\GAS\\Source\\GAS.Target.cs",
+		"F:\\UEProject\\GAS\\Source\\GASEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.0"
+}
