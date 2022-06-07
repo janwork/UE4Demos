@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LearnWebSocket.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A926B519-3292-486D-91C8-4460A5E944AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearnWebSocket.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LearnWebSocketEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{21AEEAD0-9980-46F5-9A2C-D5567F018A98}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LearnWebSocket">
+      <UniqueIdentifier>{8E5F3461-71B8-447B-BE13-B4CAB6F34584}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearnWebSocket\LearnWebSocket.Build.cs">
+      <Filter>Source\LearnWebSocket</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LearnWebSocket\LearnWebSocket.cpp">
+      <Filter>Source\LearnWebSocket</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearnWebSocket\LearnWebSocket.h">
+      <Filter>Source\LearnWebSocket</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearnWebSocket\LearnWebSocketCharacter.cpp">
+      <Filter>Source\LearnWebSocket</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearnWebSocket\LearnWebSocketCharacter.h">
+      <Filter>Source\LearnWebSocket</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearnWebSocket\LearnWebSocketGameMode.cpp">
+      <Filter>Source\LearnWebSocket</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearnWebSocket\LearnWebSocketGameMode.h">
+      <Filter>Source\LearnWebSocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

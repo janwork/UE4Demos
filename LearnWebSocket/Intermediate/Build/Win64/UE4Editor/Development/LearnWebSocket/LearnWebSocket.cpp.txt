@@ -1,0 +1,2 @@
+F:\UEProject\LearnWebSocket\Intermediate\Build\Win64\UE4Editor\Development\LearnWebSocket\Definitions.LearnWebSocket.h
+F:\UEProject\LearnWebSocket\Source\LearnWebSocket\LearnWebSocket.h
