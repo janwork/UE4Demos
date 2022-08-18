@@ -1,0 +1,24 @@
+ [
+		{
+			"Culture": ""
+		},
+		{
+			"MusicVolume": 0.52254027128219604
+		},
+		{
+			"SoundVolume": 0.02187499962747097
+		},
+		{
+			"RecordData": [
+				{
+					"0": "Default"
+				},
+				{
+					"1": "RecordTwo"
+				},
+				{
+					"2": "RecordThree"
+				}
+			]
+		}
+	]
